@@ -2,10 +2,12 @@
 
 void ofApp::setup()
 {
-    ofSetVerticalSync(true);
-    ofBackgroundHex(0xfdefc2);
-    ofSetLogLevel(OF_LOG_NOTICE);
-    ofDisableAntiAliasing();
+    
+    
+    ofSetWindowPosition(0, 0);
+
+    
+    isGravity = false;
     
     
     box2d.init();
@@ -40,21 +42,31 @@ void ofApp::setup()
         joints.push_back(joint);
     }
 
+    toggle = new ofxDatGuiToggle("TOGGLE GRAVITY", false);
     
+    toggle->setTheme(new ofxDatGuiThemeCandy());
+    
+    positionButtons();
+    
+    toggle->onButtonEvent(this, &ofApp::onButtonEvent);
 }
 
 void ofApp::update(){
     box2d.update();
+    toggle->update();
 
 }
 
 void ofApp::draw(){
-    ofSetHexColor(0xf2ab01);
+//    ofSetHexColor(0xf2ab01);
     anchor.draw();
+    toggle->draw();
+
     
+
     for(int i=0; i<circles.size(); i++) {
-        ofFill();
-        ofSetHexColor(0x01b1f2);
+//        ofFill();
+//        ofSetHexColor(0x01b1f2);
         circles[i].get()->draw();
     }
     
@@ -68,7 +80,7 @@ void ofApp::draw(){
     info += "click and pull the chain around\n";
     info += "FPS: "+ofToString(ofGetFrameRate(), 1)+"\n";
     ofSetHexColor(0x444342);
-    ofDrawBitmapString(info, 30, 30);
+    ofDrawBitmapString(info, ofGetWidth()/2 - toggle->getWidth()/2, ofGetHeight()/2+(ofGetHeight()/4 + 100) - toggle->getHeight());
 
 }
 
@@ -91,10 +103,29 @@ void ofApp::keyPressed(int key){
         joint.get()->setLength(25);
         joints.push_back(joint);
     }
-    
-    if(key == 't') ofToggleFullscreen();
 
 }
+
+void ofApp::onButtonEvent(ofxDatGuiButtonEvent e)
+{
+
+    if(e.target->getLabel() == "TOGGLE GRAVITY"){
+        isGravity =!isGravity;
+        box2d.setGravity(0, 0);
+        if (!isGravity) {
+            box2d.setGravity(10, 10);
+            isGravity == true;
+        }
+        positionButtons();
+    }
+}
+
+void ofApp::positionButtons()
+{
+    toggle->setPosition(ofGetWidth()/2 - toggle->getWidth()/2, ofGetHeight()/2+(ofGetHeight()/4) - toggle->getHeight());
+    
+}
+
 
 
 //--------------------------------------------------------------
