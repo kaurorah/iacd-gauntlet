@@ -2,73 +2,123 @@
 
 void ofApp::setup()
 {
-    ofSetWindowPosition(
-                        ( ofGetScreenWidth() -  ofGetWidth()) / 2.0f,
-                        (ofGetScreenHeight() - ofGetHeight()) / 2.0f
-                        );
+    ofSetVerticalSync(true);
+    ofBackgroundHex(0xfdefc2);
+    ofSetLogLevel(OF_LOG_NOTICE);
+    ofDisableAntiAliasing();
     
-    ofDisableArbTex();
-    ofEnableLighting();
-    ofSetBackgroundColor(28, 28, 38);
     
-    m_cam.movespeed = 3.0f;
-    m_cam.setNearClip(5.0f);
-    m_cam.setFarClip(10000);
-    m_cam.move(120, 120, 250);
-    m_cam.lookAt(ofVec3f(0, 120, 0));
+    box2d.init();
+    box2d.setGravity(10, 10);
+    box2d.setFPS(60.0);
+    box2d.registerGrabbing();
     
-    m_light.setDirectional();
-    m_light.rotate(180, 0, 1, 0);
+    anchor.setup(box2d.getWorld(), ofGetWidth()/2, ofGetHeight()/2, 4);
     
-    m_modelMatrix.scale(30, 30, 30);
-    m_modelMatrix.rotate( 90, 1, 0, 0);
-    m_modelMatrix.rotate(165, 0, 1, 0);
-    m_modelMatrix.translate(0, 140, 0);
-    
-    m_matcapImage.load("MatCap.png");
-    m_matcapShader.load("MatCap.vs", "MatCap.fs");
-    
-    m_model.loadModel("Edward_Joseph_Snowden.obj");
-}
-
-void ofApp::draw()
-{
-    m_cam.begin();
-    
-    m_light.enable();
-    
-    m_matcapShader.begin();
-    m_matcapShader.setUniformTexture("litsphereTexture", m_matcapImage, 1);
-    ofPushMatrix();
-    ofMultMatrix(m_modelMatrix * m_gizmo.getMatrix());
-    m_model.getMesh("").drawFaces();
-    ofPopMatrix();
-    m_matcapShader.end();
-    
-    m_light.disable();
-    
-    ofDisableLighting();
-    ofDrawGrid(50, 10, false, true, true, false);
-    m_gizmo.draw(m_cam);
-    ofEnableLighting();
-    
-    m_cam.end();
-}
-
-void ofApp::keyPressed(ofKeyEventArgs &key)
-{
-    switch (key.keycode)
-    {
-        case (GLFW_KEY_1): m_gizmo.toggleScale(); break;
-        case (GLFW_KEY_2): m_gizmo.toggleRotation(); break;
-        case (GLFW_KEY_3): m_gizmo.toggleTranslation(); break;
+    // first we add just a few circles
+    for (int i=0; i<3; i++) {
+        shared_ptr<ofxBox2dCircle> circle = shared_ptr<ofxBox2dCircle>(new ofxBox2dCircle);
+        circle.get()->setPhysics(3.0, 0.53, 0.1);
+        circle.get()->setup(box2d.getWorld(), ofGetWidth()/2, 100+(i*20), 8);
+        circles.push_back(circle);
     }
+    
+    // now connect each circle with a joint
+    for (int i=0; i<circles.size(); i++) {
+        
+        shared_ptr<ofxBox2dJoint> joint = shared_ptr<ofxBox2dJoint>(new ofxBox2dJoint);
+        
+        // if this is the first point connect to the top anchor.
+        if(i == 0) {
+            joint.get()->setup(box2d.getWorld(), anchor.body, circles[i].get()->body);
+        }
+        else {
+            joint.get()->setup(box2d.getWorld(), circles[i-1].get()->body, circles[i].get()->body);
+        }
+        
+        joint.get()->setLength(25);
+        joints.push_back(joint);
+    }
+
+    
 }
 
-void ofApp::mousePressed(ofMouseEventArgs &mouse)
-{
-    switch (mouse.button)
-    {
-        case (OF_MOUSE_BUTTON_RIGHT): m_cam.toggleControl(); break;
+void ofApp::update(){
+    box2d.update();
+
+}
+
+void ofApp::draw(){
+    ofSetHexColor(0xf2ab01);
+    anchor.draw();
+    
+    for(int i=0; i<circles.size(); i++) {
+        ofFill();
+        ofSetHexColor(0x01b1f2);
+        circles[i].get()->draw();
     }
+    
+    for(int i=0; i<joints.size(); i++) {
+        ofSetHexColor(0x444342);
+        joints[i].get()->draw();
+    }
+    
+    string info = "";
+    info += "Press [n] to add a new joint\n";
+    info += "click and pull the chain around\n";
+    info += "FPS: "+ofToString(ofGetFrameRate(), 1)+"\n";
+    ofSetHexColor(0x444342);
+    ofDrawBitmapString(info, 30, 30);
+
+}
+
+void ofApp::keyPressed(int key){
+    if(key == 'n') {
+        
+        // add a new circle
+        shared_ptr<ofxBox2dCircle> circle = shared_ptr<ofxBox2dCircle>(new ofxBox2dCircle);
+        circle.get()->setPhysics(3.0, 0.53, 0.1);
+        circle.get()->setup(box2d.getWorld(), circles.back().get()->getPosition().x+ofRandom(-30, 30), circles.back().get()->getPosition().y-30, 8);
+        circles.push_back(circle);
+        
+        // get this cirlce and the prev cirlce
+        int a = (int)circles.size()-2;
+        int b = (int)circles.size()-1;
+        
+        // now connect the new circle with a joint
+        shared_ptr<ofxBox2dJoint> joint = shared_ptr<ofxBox2dJoint>(new ofxBox2dJoint);
+        joint.get()->setup(box2d.getWorld(), circles[a].get()->body, circles[b].get()->body);
+        joint.get()->setLength(25);
+        joints.push_back(joint);
+    }
+    
+    if(key == 't') ofToggleFullscreen();
+
+}
+
+
+//--------------------------------------------------------------
+void ofApp::keyReleased(int key) {
+}
+
+//--------------------------------------------------------------
+void ofApp::mouseMoved(int x, int y ) {
+    
+}
+
+//--------------------------------------------------------------
+void ofApp::mouseDragged(int x, int y, int button) {
+}
+
+//--------------------------------------------------------------
+void ofApp::mousePressed(int x, int y, int button) {
+    
+}
+
+//--------------------------------------------------------------
+void ofApp::mouseReleased(int x, int y, int button) {
+}
+
+//--------------------------------------------------------------
+void ofApp::resized(int w, int h){
 }

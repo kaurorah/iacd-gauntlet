@@ -1,4 +1,1 @@
-ofxAssimpModelLoader
-ofxFirstPersonCamera
-ofxGui
-ofxManipulator
+ofxBox2d

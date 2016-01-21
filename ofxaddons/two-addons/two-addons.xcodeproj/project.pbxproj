@@ -1,709 +1,3202 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		19743C0EA6582C3DDA9C10AD /* ofxFirstPersonCamera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77BCF31151A31ADEEB5BDC72 /* ofxFirstPersonCamera.cpp */; };
-		5505ED9891890C1B510B85BA /* ofxSlider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 736E8A02A7E138072C32BA22 /* ofxSlider.cpp */; };
-		6D0527B5701F95239E23F411 /* ofxToggle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA9A560C03461E9C82524DC4 /* ofxToggle.cpp */; };
-		7D06AB8BAA06647A01490542 /* ofxAssimpMeshHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55F8D6BA6FB1DEE6BD271F6B /* ofxAssimpMeshHelper.cpp */; };
-		87A537523EF36B6900E02419 /* ofxAssimpAnimation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69A0A8BDD4B38C78C7CCAD6C /* ofxAssimpAnimation.cpp */; };
-		B358E52665ED949800202AE5 /* ofxSliderGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80EE2370F6D0FABECFB367FA /* ofxSliderGroup.cpp */; };
-		C37DC2E9DFDEFCECB0755E9F /* ofxButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52F87D6DBD25D265701068D3 /* ofxButton.cpp */; };
-		CE718E9984ABA35224826815 /* ofxGuiGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA10FAE6073C7919A0C4BDFF /* ofxGuiGroup.cpp */; };
-		D000EAD4D8AC05233DC384BB /* ofxLabel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79E1A59929DA313EF94C4A3B /* ofxLabel.cpp */; };
-		D47D2C8219423A064E2C6E8F /* ofxManipulator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0C56E6578D45C47DC849698 /* ofxManipulator.cpp */; };
-		E1FBCD2C8ECB8BA6B6653D44 /* ofxAssimpTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DBE2043153C86DBE3251640 /* ofxAssimpTexture.cpp */; };
-		E211FD921B0ADAB8B0F44EEC /* ofxAssimpModelLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 595A3C5603A02F3D5BAB03E4 /* ofxAssimpModelLoader.cpp */; };
-		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
-		E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1D0A3A1BDC003C02F2 /* main.cpp */; };
-		E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */; };
-		E6842849AE22F9B3A46445A9 /* ofxPanel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C44F31827CA1F0A961B5BDC9 /* ofxPanel.cpp */; };
-		F2CDDADE2D40BADA4A3325DF /* ofxBaseGui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD66BBECFB77E5330F685B98 /* ofxBaseGui.cpp */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		E4328147138ABC890047C5CB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = E4B27C1510CBEB8E00536013;
-			remoteInfo = openFrameworks;
-		};
-		E4EEB9AB138B136A00A80321 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = E4B27C1410CBEB8E00536013;
-			remoteInfo = openFrameworks;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		E4C2427710CC5ABF004149E2 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
-/* Begin PBXFileReference section */
-		0072F7A129B0E41F1D446529 /* ofxGui.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxGui.h; path = ../../../of_v0.9.0_osx_release/addons/ofxGui/src/ofxGui.h; sourceTree = SOURCE_ROOT; };
-		036E89C74C994C00A5E3CBB0 /* Exporter.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Exporter.hpp; path = ../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/include/assimp/Exporter.hpp; sourceTree = SOURCE_ROOT; };
-		038B77CDBDCF971DAC98B456 /* ofxSliderGroup.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxSliderGroup.h; path = ../../../of_v0.9.0_osx_release/addons/ofxGui/src/ofxSliderGroup.h; sourceTree = SOURCE_ROOT; };
-		07696784CF05CA03F4075396 /* ofxAssimpTexture.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxAssimpTexture.h; path = ../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/src/ofxAssimpTexture.h; sourceTree = SOURCE_ROOT; };
-		08805A199811D9C09AAB0AE1 /* IOStream.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = IOStream.hpp; path = ../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/include/assimp/IOStream.hpp; sourceTree = SOURCE_ROOT; };
-		098ED44ED5FC3C35483CB402 /* importerdesc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = importerdesc.h; path = ../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/include/assimp/importerdesc.h; sourceTree = SOURCE_ROOT; };
-		0A69FDF9E77E6B2EA23FEA85 /* ofxGuiGroup.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxGuiGroup.h; path = ../../../of_v0.9.0_osx_release/addons/ofxGui/src/ofxGuiGroup.h; sourceTree = SOURCE_ROOT; };
-		0AC5102A4CF2605FD47940FE /* version.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = version.h; path = ../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/include/assimp/version.h; sourceTree = SOURCE_ROOT; };
-		0BBEF3355DF364D78EE1DF0F /* matrix4x4.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = matrix4x4.h; path = ../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/include/assimp/matrix4x4.h; sourceTree = SOURCE_ROOT; };
-		122A1A3355E32ED3BB2151A1 /* poppack1.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = poppack1.h; path = ../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/include/assimp/Compiler/poppack1.h; sourceTree = SOURCE_ROOT; };
-		17BE935830B2ECE229A5A39F /* postprocess.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = postprocess.h; path = ../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/include/assimp/postprocess.h; sourceTree = SOURCE_ROOT; };
-		1FA7BA5B8A004F032F39B4D9 /* vector2.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = vector2.h; path = ../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/include/assimp/vector2.h; sourceTree = SOURCE_ROOT; };
-		28B332AFE71DD3F74AB472D4 /* cexport.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = cexport.h; path = ../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/include/assimp/cexport.h; sourceTree = SOURCE_ROOT; };
-		2CD9D9C1C562DC1C90140DB2 /* NullLogger.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = NullLogger.hpp; path = ../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/include/assimp/NullLogger.hpp; sourceTree = SOURCE_ROOT; };
-		2DBE21F67C7CD884A16FBC10 /* ai_assert.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ai_assert.h; path = ../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/include/assimp/ai_assert.h; sourceTree = SOURCE_ROOT; };
-		2F2273A5C25308461500D26F /* vector3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = vector3.h; path = ../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/include/assimp/vector3.h; sourceTree = SOURCE_ROOT; };
-		33D45A7B14D23D3E8A017318 /* scene.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = scene.h; path = ../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/include/assimp/scene.h; sourceTree = SOURCE_ROOT; };
-		35D0EEDEC832779DFE57CC9E /* ProgressHandler.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ProgressHandler.hpp; path = ../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/include/assimp/ProgressHandler.hpp; sourceTree = SOURCE_ROOT; };
-		37B45D1C1DC4EA8A265DEBE3 /* matrix3x3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = matrix3x3.h; path = ../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/include/assimp/matrix3x3.h; sourceTree = SOURCE_ROOT; };
-		41F47ED737556CE82BDC9C3D /* ofxToggle.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxToggle.h; path = ../../../of_v0.9.0_osx_release/addons/ofxGui/src/ofxToggle.h; sourceTree = SOURCE_ROOT; };
-		4691F4B728F4D267F7EAB5E5 /* camera.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = camera.h; path = ../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/include/assimp/camera.h; sourceTree = SOURCE_ROOT; };
-		52F87D6DBD25D265701068D3 /* ofxButton.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxButton.cpp; path = ../../../of_v0.9.0_osx_release/addons/ofxGui/src/ofxButton.cpp; sourceTree = SOURCE_ROOT; };
-		55F8D6BA6FB1DEE6BD271F6B /* ofxAssimpMeshHelper.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxAssimpMeshHelper.cpp; path = ../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/src/ofxAssimpMeshHelper.cpp; sourceTree = SOURCE_ROOT; };
-		595A3C5603A02F3D5BAB03E4 /* ofxAssimpModelLoader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxAssimpModelLoader.cpp; path = ../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/src/ofxAssimpModelLoader.cpp; sourceTree = SOURCE_ROOT; };
-		5B3A2BCAE10785EAB15311E7 /* DefaultLogger.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = DefaultLogger.hpp; path = ../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/include/assimp/DefaultLogger.hpp; sourceTree = SOURCE_ROOT; };
-		69A0A8BDD4B38C78C7CCAD6C /* ofxAssimpAnimation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxAssimpAnimation.cpp; path = ../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/src/ofxAssimpAnimation.cpp; sourceTree = SOURCE_ROOT; };
-		6DE32F7E2C47C661309EA711 /* ofxSlider.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxSlider.h; path = ../../../of_v0.9.0_osx_release/addons/ofxGui/src/ofxSlider.h; sourceTree = SOURCE_ROOT; };
-		6FB3179725A3AE82689E55D8 /* material.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = material.h; path = ../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/include/assimp/material.h; sourceTree = SOURCE_ROOT; };
-		7141FE7E3F02621999576238 /* defs.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = defs.h; path = ../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/include/assimp/defs.h; sourceTree = SOURCE_ROOT; };
-		736E8A02A7E138072C32BA22 /* ofxSlider.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxSlider.cpp; path = ../../../of_v0.9.0_osx_release/addons/ofxGui/src/ofxSlider.cpp; sourceTree = SOURCE_ROOT; };
-		77BCF31151A31ADEEB5BDC72 /* ofxFirstPersonCamera.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxFirstPersonCamera.cpp; path = ../../../of_v0.9.0_osx_release/addons/ofxFirstPersonCamera/src/ofxFirstPersonCamera.cpp; sourceTree = SOURCE_ROOT; };
-		79E1A59929DA313EF94C4A3B /* ofxLabel.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxLabel.cpp; path = ../../../of_v0.9.0_osx_release/addons/ofxGui/src/ofxLabel.cpp; sourceTree = SOURCE_ROOT; };
-		7DBE2043153C86DBE3251640 /* ofxAssimpTexture.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxAssimpTexture.cpp; path = ../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/src/ofxAssimpTexture.cpp; sourceTree = SOURCE_ROOT; };
-		80EE2370F6D0FABECFB367FA /* ofxSliderGroup.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxSliderGroup.cpp; path = ../../../of_v0.9.0_osx_release/addons/ofxGui/src/ofxSliderGroup.cpp; sourceTree = SOURCE_ROOT; };
-		87782D9E49767B56863AB156 /* ofxFirstPersonCamera.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxFirstPersonCamera.h; path = ../../../of_v0.9.0_osx_release/addons/ofxFirstPersonCamera/src/ofxFirstPersonCamera.h; sourceTree = SOURCE_ROOT; };
-		9182B9B69C1D3BE20BD1B3FC /* color4.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = color4.h; path = ../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/include/assimp/color4.h; sourceTree = SOURCE_ROOT; };
-		92ED5D9C0F33CD1C89EAC89E /* ofxManipulator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxManipulator.h; path = ../../../of_v0.9.0_osx_release/addons/ofxManipulator/src/ofxManipulator.h; sourceTree = SOURCE_ROOT; };
-		960BD4090A0CE149607722D2 /* mesh.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = mesh.h; path = ../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/include/assimp/mesh.h; sourceTree = SOURCE_ROOT; };
-		98204C27A13E4BEA59808272 /* IOSystem.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = IOSystem.hpp; path = ../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/include/assimp/IOSystem.hpp; sourceTree = SOURCE_ROOT; };
-		98C24C7380BCB0AA658AA430 /* Logger.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Logger.hpp; path = ../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/include/assimp/Logger.hpp; sourceTree = SOURCE_ROOT; };
-		9E80C3D7973BB94A4460C92B /* pushpack1.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = pushpack1.h; path = ../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/include/assimp/Compiler/pushpack1.h; sourceTree = SOURCE_ROOT; };
-		A305FB97F1F5C3DF6FC3091B /* quaternion.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = quaternion.h; path = ../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/include/assimp/quaternion.h; sourceTree = SOURCE_ROOT; };
-		A5823FCA1F5A33487664A9D8 /* LogStream.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = LogStream.hpp; path = ../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/include/assimp/LogStream.hpp; sourceTree = SOURCE_ROOT; };
-		A761234FDB2D777C01CB5429 /* ofxAssimpAnimation.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxAssimpAnimation.h; path = ../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/src/ofxAssimpAnimation.h; sourceTree = SOURCE_ROOT; };
-		AA120CBB1E81C857595200C5 /* ofxAssimpMeshHelper.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxAssimpMeshHelper.h; path = ../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/src/ofxAssimpMeshHelper.h; sourceTree = SOURCE_ROOT; };
-		AD66BBECFB77E5330F685B98 /* ofxBaseGui.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxBaseGui.cpp; path = ../../../of_v0.9.0_osx_release/addons/ofxGui/src/ofxBaseGui.cpp; sourceTree = SOURCE_ROOT; };
-		B0C56E6578D45C47DC849698 /* ofxManipulator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxManipulator.cpp; path = ../../../of_v0.9.0_osx_release/addons/ofxManipulator/src/ofxManipulator.cpp; sourceTree = SOURCE_ROOT; };
-		B66550FB49947ABEC1A2E888 /* ofxLabel.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxLabel.h; path = ../../../of_v0.9.0_osx_release/addons/ofxGui/src/ofxLabel.h; sourceTree = SOURCE_ROOT; };
-		BA10FAE6073C7919A0C4BDFF /* ofxGuiGroup.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxGuiGroup.cpp; path = ../../../of_v0.9.0_osx_release/addons/ofxGui/src/ofxGuiGroup.cpp; sourceTree = SOURCE_ROOT; };
-		BB4A8BCA6363373E6049618D /* ofxPanel.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxPanel.h; path = ../../../of_v0.9.0_osx_release/addons/ofxGui/src/ofxPanel.h; sourceTree = SOURCE_ROOT; };
-		BBFB307F7D93D3A4D3B4A281 /* texture.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = texture.h; path = ../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/include/assimp/texture.h; sourceTree = SOURCE_ROOT; };
-		BD059C71455554CBEEE8534C /* types.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = types.h; path = ../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/include/assimp/types.h; sourceTree = SOURCE_ROOT; };
-		C206A6110F4AAF39CC6E2038 /* pstdint.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = pstdint.h; path = ../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/include/assimp/Compiler/pstdint.h; sourceTree = SOURCE_ROOT; };
-		C44F31827CA1F0A961B5BDC9 /* ofxPanel.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxPanel.cpp; path = ../../../of_v0.9.0_osx_release/addons/ofxGui/src/ofxPanel.cpp; sourceTree = SOURCE_ROOT; };
-		C4AF56E33065FF3C344EBFA3 /* ofxAssimpUtils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxAssimpUtils.h; path = ../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/src/ofxAssimpUtils.h; sourceTree = SOURCE_ROOT; };
-		C4D8EBF1E1B84B759EE7C098 /* Importer.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Importer.hpp; path = ../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/include/assimp/Importer.hpp; sourceTree = SOURCE_ROOT; };
-		C88AE7EA40F8A84234FEF3F9 /* metadata.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = metadata.h; path = ../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/include/assimp/metadata.h; sourceTree = SOURCE_ROOT; };
-		D43B2F0B2AF85E635B41C76F /* ofxButton.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxButton.h; path = ../../../of_v0.9.0_osx_release/addons/ofxGui/src/ofxButton.h; sourceTree = SOURCE_ROOT; };
-		DAB51EDAED3BC9EB19E86376 /* ofxBaseGui.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxBaseGui.h; path = ../../../of_v0.9.0_osx_release/addons/ofxGui/src/ofxBaseGui.h; sourceTree = SOURCE_ROOT; };
-		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../../of_v0.9.0_osx_release/libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
-		E441F6FAD593D891055EB5AD /* config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = config.h; path = ../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/include/assimp/config.h; sourceTree = SOURCE_ROOT; };
-		E446DD21F790E8A175638CB6 /* light.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = light.h; path = ../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/include/assimp/light.h; sourceTree = SOURCE_ROOT; };
-		E4B69B5B0A3A1756003C02F2 /* two-addonsDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "two-addonsDebug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E4B69E1D0A3A1BDC003C02F2 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
-		E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofApp.cpp; path = src/ofApp.cpp; sourceTree = SOURCE_ROOT; };
-		E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ofApp.h; path = src/ofApp.h; sourceTree = SOURCE_ROOT; };
-		E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; path = "openFrameworks-Info.plist"; sourceTree = "<group>"; };
-		E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = CoreOF.xcconfig; path = ../../../of_v0.9.0_osx_release/libs/openFrameworksCompiled/project/osx/CoreOF.xcconfig; sourceTree = SOURCE_ROOT; };
-		E4EB6923138AFD0F00A09F29 /* Project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
-		EA9A560C03461E9C82524DC4 /* ofxToggle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxToggle.cpp; path = ../../../of_v0.9.0_osx_release/addons/ofxGui/src/ofxToggle.cpp; sourceTree = SOURCE_ROOT; };
-		EE1A1C6150E144B101EDF15F /* ofxAssimpModelLoader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxAssimpModelLoader.h; path = ../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/src/ofxAssimpModelLoader.h; sourceTree = SOURCE_ROOT; };
-		F22234C327687B999DA603D1 /* cimport.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = cimport.h; path = ../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/include/assimp/cimport.h; sourceTree = SOURCE_ROOT; };
-		F3EE8814B53A4031752B0FA1 /* anim.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = anim.h; path = ../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/include/assimp/anim.h; sourceTree = SOURCE_ROOT; };
-		FEC2173E321C7C53DE2AEB90 /* cfileio.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = cfileio.h; path = ../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/include/assimp/cfileio.h; sourceTree = SOURCE_ROOT; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		E4B69B590A3A1756003C02F2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		2C8F245ACBE61E28646C17F2 /* ofxAssimpModelLoader */ = {
-			isa = PBXGroup;
-			children = (
-				9D99F547CA5C0ECCB9EB9806 /* src */,
-				C721A9AF1157766AFE54645E /* libs */,
-			);
-			name = ofxAssimpModelLoader;
-			sourceTree = "<group>";
-		};
-		480A780D8D0308AE4A368801 /* ofxGui */ = {
-			isa = PBXGroup;
-			children = (
-				A763ED608B35AE3310251DEE /* src */,
-			);
-			name = ofxGui;
-			sourceTree = "<group>";
-		};
-		493F78EAA6D9634E9F731F1C /* ofxFirstPersonCamera */ = {
-			isa = PBXGroup;
-			children = (
-				C56C6F8AAEDE7CF873A73C95 /* src */,
-			);
-			name = ofxFirstPersonCamera;
-			sourceTree = "<group>";
-		};
-		59905D957FDE48902CF1F729 /* assimp */ = {
-			isa = PBXGroup;
-			children = (
-				EEFDD7AE0009AE6F77EF2A93 /* include */,
-			);
-			name = assimp;
-			sourceTree = "<group>";
-		};
-		67AD613537D3ED7FD883659E /* assimp */ = {
-			isa = PBXGroup;
-			children = (
-				2DBE21F67C7CD884A16FBC10 /* ai_assert.h */,
-				F3EE8814B53A4031752B0FA1 /* anim.h */,
-				4691F4B728F4D267F7EAB5E5 /* camera.h */,
-				28B332AFE71DD3F74AB472D4 /* cexport.h */,
-				FEC2173E321C7C53DE2AEB90 /* cfileio.h */,
-				F22234C327687B999DA603D1 /* cimport.h */,
-				9182B9B69C1D3BE20BD1B3FC /* color4.h */,
-				B77F1220F7C30BFF6034CC97 /* Compiler */,
-				E441F6FAD593D891055EB5AD /* config.h */,
-				5B3A2BCAE10785EAB15311E7 /* DefaultLogger.hpp */,
-				7141FE7E3F02621999576238 /* defs.h */,
-				036E89C74C994C00A5E3CBB0 /* Exporter.hpp */,
-				C4D8EBF1E1B84B759EE7C098 /* Importer.hpp */,
-				098ED44ED5FC3C35483CB402 /* importerdesc.h */,
-				08805A199811D9C09AAB0AE1 /* IOStream.hpp */,
-				98204C27A13E4BEA59808272 /* IOSystem.hpp */,
-				E446DD21F790E8A175638CB6 /* light.h */,
-				98C24C7380BCB0AA658AA430 /* Logger.hpp */,
-				A5823FCA1F5A33487664A9D8 /* LogStream.hpp */,
-				6FB3179725A3AE82689E55D8 /* material.h */,
-				37B45D1C1DC4EA8A265DEBE3 /* matrix3x3.h */,
-				0BBEF3355DF364D78EE1DF0F /* matrix4x4.h */,
-				960BD4090A0CE149607722D2 /* mesh.h */,
-				C88AE7EA40F8A84234FEF3F9 /* metadata.h */,
-				2CD9D9C1C562DC1C90140DB2 /* NullLogger.hpp */,
-				17BE935830B2ECE229A5A39F /* postprocess.h */,
-				35D0EEDEC832779DFE57CC9E /* ProgressHandler.hpp */,
-				A305FB97F1F5C3DF6FC3091B /* quaternion.h */,
-				33D45A7B14D23D3E8A017318 /* scene.h */,
-				BBFB307F7D93D3A4D3B4A281 /* texture.h */,
-				BD059C71455554CBEEE8534C /* types.h */,
-				1FA7BA5B8A004F032F39B4D9 /* vector2.h */,
-				2F2273A5C25308461500D26F /* vector3.h */,
-				0AC5102A4CF2605FD47940FE /* version.h */,
-			);
-			name = assimp;
-			sourceTree = "<group>";
-		};
-		6948EE371B920CB800B5AC1A /* local_addons */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = local_addons;
-			sourceTree = "<group>";
-		};
-		6BC28D81D39E83369B29413A /* ofxManipulator */ = {
-			isa = PBXGroup;
-			children = (
-				B488445ECE1D0ACAC51B2707 /* src */,
-			);
-			name = ofxManipulator;
-			sourceTree = "<group>";
-		};
-		9D99F547CA5C0ECCB9EB9806 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				69A0A8BDD4B38C78C7CCAD6C /* ofxAssimpAnimation.cpp */,
-				A761234FDB2D777C01CB5429 /* ofxAssimpAnimation.h */,
-				55F8D6BA6FB1DEE6BD271F6B /* ofxAssimpMeshHelper.cpp */,
-				AA120CBB1E81C857595200C5 /* ofxAssimpMeshHelper.h */,
-				595A3C5603A02F3D5BAB03E4 /* ofxAssimpModelLoader.cpp */,
-				EE1A1C6150E144B101EDF15F /* ofxAssimpModelLoader.h */,
-				7DBE2043153C86DBE3251640 /* ofxAssimpTexture.cpp */,
-				07696784CF05CA03F4075396 /* ofxAssimpTexture.h */,
-				C4AF56E33065FF3C344EBFA3 /* ofxAssimpUtils.h */,
-			);
-			name = src;
-			sourceTree = "<group>";
-		};
-		A763ED608B35AE3310251DEE /* src */ = {
-			isa = PBXGroup;
-			children = (
-				AD66BBECFB77E5330F685B98 /* ofxBaseGui.cpp */,
-				DAB51EDAED3BC9EB19E86376 /* ofxBaseGui.h */,
-				52F87D6DBD25D265701068D3 /* ofxButton.cpp */,
-				D43B2F0B2AF85E635B41C76F /* ofxButton.h */,
-				0072F7A129B0E41F1D446529 /* ofxGui.h */,
-				BA10FAE6073C7919A0C4BDFF /* ofxGuiGroup.cpp */,
-				0A69FDF9E77E6B2EA23FEA85 /* ofxGuiGroup.h */,
-				79E1A59929DA313EF94C4A3B /* ofxLabel.cpp */,
-				B66550FB49947ABEC1A2E888 /* ofxLabel.h */,
-				C44F31827CA1F0A961B5BDC9 /* ofxPanel.cpp */,
-				BB4A8BCA6363373E6049618D /* ofxPanel.h */,
-				736E8A02A7E138072C32BA22 /* ofxSlider.cpp */,
-				6DE32F7E2C47C661309EA711 /* ofxSlider.h */,
-				80EE2370F6D0FABECFB367FA /* ofxSliderGroup.cpp */,
-				038B77CDBDCF971DAC98B456 /* ofxSliderGroup.h */,
-				EA9A560C03461E9C82524DC4 /* ofxToggle.cpp */,
-				41F47ED737556CE82BDC9C3D /* ofxToggle.h */,
-			);
-			name = src;
-			sourceTree = "<group>";
-		};
-		B488445ECE1D0ACAC51B2707 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				B0C56E6578D45C47DC849698 /* ofxManipulator.cpp */,
-				92ED5D9C0F33CD1C89EAC89E /* ofxManipulator.h */,
-			);
-			name = src;
-			sourceTree = "<group>";
-		};
-		B77F1220F7C30BFF6034CC97 /* Compiler */ = {
-			isa = PBXGroup;
-			children = (
-				122A1A3355E32ED3BB2151A1 /* poppack1.h */,
-				C206A6110F4AAF39CC6E2038 /* pstdint.h */,
-				9E80C3D7973BB94A4460C92B /* pushpack1.h */,
-			);
-			name = Compiler;
-			sourceTree = "<group>";
-		};
-		BB4B014C10F69532006C3DED /* addons */ = {
-			isa = PBXGroup;
-			children = (
-				2C8F245ACBE61E28646C17F2 /* ofxAssimpModelLoader */,
-				493F78EAA6D9634E9F731F1C /* ofxFirstPersonCamera */,
-				480A780D8D0308AE4A368801 /* ofxGui */,
-				6BC28D81D39E83369B29413A /* ofxManipulator */,
-			);
-			name = addons;
-			sourceTree = "<group>";
-		};
-		C56C6F8AAEDE7CF873A73C95 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				77BCF31151A31ADEEB5BDC72 /* ofxFirstPersonCamera.cpp */,
-				87782D9E49767B56863AB156 /* ofxFirstPersonCamera.h */,
-			);
-			name = src;
-			sourceTree = "<group>";
-		};
-		C721A9AF1157766AFE54645E /* libs */ = {
-			isa = PBXGroup;
-			children = (
-				59905D957FDE48902CF1F729 /* assimp */,
-			);
-			name = libs;
-			sourceTree = "<group>";
-		};
-		E4328144138ABC890047C5CB /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E4328148138ABC890047C5CB /* openFrameworksDebug.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		E4B69B4A0A3A1720003C02F2 = {
-			isa = PBXGroup;
-			children = (
-				E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */,
-				E4EB6923138AFD0F00A09F29 /* Project.xcconfig */,
-				E4B69E1C0A3A1BDC003C02F2 /* src */,
-				E4EEC9E9138DF44700A80321 /* openFrameworks */,
-				BB4B014C10F69532006C3DED /* addons */,
-				6948EE371B920CB800B5AC1A /* local_addons */,
-				E4B69B5B0A3A1756003C02F2 /* two-addonsDebug.app */,
-			);
-			sourceTree = "<group>";
-		};
-		E4B69E1C0A3A1BDC003C02F2 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				E4B69E1D0A3A1BDC003C02F2 /* main.cpp */,
-				E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */,
-				E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */,
-			);
-			path = src;
-			sourceTree = SOURCE_ROOT;
-		};
-		E4EEC9E9138DF44700A80321 /* openFrameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */,
-				E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */,
-			);
-			name = openFrameworks;
-			sourceTree = "<group>";
-		};
-		EEFDD7AE0009AE6F77EF2A93 /* include */ = {
-			isa = PBXGroup;
-			children = (
-				67AD613537D3ED7FD883659E /* assimp */,
-			);
-			name = include;
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		E4B69B5A0A3A1756003C02F2 /* two-addons */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "two-addons" */;
-			buildPhases = (
-				E4B69B580A3A1756003C02F2 /* Sources */,
-				E4B69B590A3A1756003C02F2 /* Frameworks */,
-				E4B6FFFD0C3F9AB9008CF71C /* ShellScript */,
-				E4C2427710CC5ABF004149E2 /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E4EEB9AC138B136A00A80321 /* PBXTargetDependency */,
-			);
-			name = "two-addons";
-			productName = myOFApp;
-			productReference = E4B69B5B0A3A1756003C02F2 /* two-addonsDebug.app */;
-			productType = "com.apple.product-type.application";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		E4B69B4C0A3A1720003C02F2 /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastUpgradeCheck = 0720;
-			};
-			buildConfigurationList = E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "two-addons" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				English,
-				Japanese,
-				French,
-				German,
-			);
-			mainGroup = E4B69B4A0A3A1720003C02F2;
-			productRefGroup = E4B69B4A0A3A1720003C02F2;
-			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = E4328144138ABC890047C5CB /* Products */;
-					ProjectRef = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
-				},
-			);
-			projectRoot = "";
-			targets = (
-				E4B69B5A0A3A1756003C02F2 /* two-addons */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		E4328148138ABC890047C5CB /* openFrameworksDebug.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = openFrameworksDebug.a;
-			remoteRef = E4328147138ABC890047C5CB /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		E4B6FFFD0C3F9AB9008CF71C /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "rsync -aved ../../../of_v0.9.0_osx_release/libs/fmodex/lib/osx/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/\"; install_name_tool -change ./libfmodex.dylib @executable_path/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/$PRODUCT_NAME\";\nmkdir -p \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\nrsync -aved \"$ICON_FILE\" \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\nrsync -aved ../../../of_v0.9.0_osx_release/libs/glut/lib/osx/GLUT.framework \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		E4B69B580A3A1756003C02F2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
-				E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */,
-				87A537523EF36B6900E02419 /* ofxAssimpAnimation.cpp in Sources */,
-				7D06AB8BAA06647A01490542 /* ofxAssimpMeshHelper.cpp in Sources */,
-				E211FD921B0ADAB8B0F44EEC /* ofxAssimpModelLoader.cpp in Sources */,
-				E1FBCD2C8ECB8BA6B6653D44 /* ofxAssimpTexture.cpp in Sources */,
-				19743C0EA6582C3DDA9C10AD /* ofxFirstPersonCamera.cpp in Sources */,
-				F2CDDADE2D40BADA4A3325DF /* ofxBaseGui.cpp in Sources */,
-				C37DC2E9DFDEFCECB0755E9F /* ofxButton.cpp in Sources */,
-				CE718E9984ABA35224826815 /* ofxGuiGroup.cpp in Sources */,
-				D000EAD4D8AC05233DC384BB /* ofxLabel.cpp in Sources */,
-				E6842849AE22F9B3A46445A9 /* ofxPanel.cpp in Sources */,
-				5505ED9891890C1B510B85BA /* ofxSlider.cpp in Sources */,
-				B358E52665ED949800202AE5 /* ofxSliderGroup.cpp in Sources */,
-				6D0527B5701F95239E23F411 /* ofxToggle.cpp in Sources */,
-				D47D2C8219423A064E2C6E8F /* ofxManipulator.cpp in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		E4EEB9AC138B136A00A80321 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = openFrameworks;
-			targetProxy = E4EEB9AB138B136A00A80321 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin XCBuildConfiguration section */
-		E4B69B4E0A3A1720003C02F2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
-				COPY_PHASE_STRIP = NO;
-				DEAD_CODE_STRIPPING = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_AUTO_VECTORIZATION = YES;
-				GCC_ENABLE_SSE3_EXTENSIONS = YES;
-				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
-				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
-				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
-				GCC_WARN_UNINITIALIZED_AUTOS = NO;
-				GCC_WARN_UNUSED_VALUE = NO;
-				GCC_WARN_UNUSED_VARIABLE = NO;
-				HEADER_SEARCH_PATHS = (
-					"$(OF_CORE_HEADERS)",
-					src,
-					../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs,
-					../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp,
-					../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/include,
-					../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/include/assimp,
-					../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/include/assimp/Compiler,
-					../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/lib,
-					../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/lib/emscripten,
-					../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/lib/osx,
-					../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/license,
-					../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/src,
-					../../../of_v0.9.0_osx_release/addons/ofxFirstPersonCamera/src,
-					../../../of_v0.9.0_osx_release/addons/ofxGui/src,
-					../../../of_v0.9.0_osx_release/addons/ofxManipulator/src,
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				ONLY_ACTIVE_ARCH = YES;
-				OTHER_CPLUSPLUSFLAGS = (
-					"-D__MACOSX_CORE__",
-					"-mtune=native",
-				);
-				OTHER_LDFLAGS = (
-					"$(OF_CORE_FRAMEWORKS)",
-					"$(OF_CORE_LIBS)",
-					../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/lib/osx/assimp.a,
-				);
-				SDKROOT = macosx;
-			};
-			name = Debug;
-		};
-		E4B69B4F0A3A1720003C02F2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
-				COPY_PHASE_STRIP = YES;
-				DEAD_CODE_STRIPPING = YES;
-				GCC_AUTO_VECTORIZATION = YES;
-				GCC_ENABLE_SSE3_EXTENSIONS = YES;
-				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_UNROLL_LOOPS = YES;
-				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
-				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
-				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
-				GCC_WARN_UNINITIALIZED_AUTOS = NO;
-				GCC_WARN_UNUSED_VALUE = NO;
-				GCC_WARN_UNUSED_VARIABLE = NO;
-				HEADER_SEARCH_PATHS = (
-					"$(OF_CORE_HEADERS)",
-					src,
-					../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs,
-					../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp,
-					../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/include,
-					../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/include/assimp,
-					../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/include/assimp/Compiler,
-					../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/lib,
-					../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/lib/emscripten,
-					../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/lib/osx,
-					../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/license,
-					../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/src,
-					../../../of_v0.9.0_osx_release/addons/ofxFirstPersonCamera/src,
-					../../../of_v0.9.0_osx_release/addons/ofxGui/src,
-					../../../of_v0.9.0_osx_release/addons/ofxManipulator/src,
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				OTHER_CPLUSPLUSFLAGS = (
-					"-D__MACOSX_CORE__",
-					"-mtune=native",
-				);
-				OTHER_LDFLAGS = (
-					"$(OF_CORE_FRAMEWORKS)",
-					"$(OF_CORE_LIBS)",
-					../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/lib/osx/assimp.a,
-				);
-				SDKROOT = macosx;
-			};
-			name = Release;
-		};
-		E4B69B600A3A1757003C02F2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
-				);
-				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../of_v0.9.0_osx_release/libs/glut/lib/osx\"";
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_MODEL_TUNING = NONE;
-				HEADER_SEARCH_PATHS = (
-					"$(OF_CORE_HEADERS)",
-					src,
-					../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs,
-					../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp,
-					../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/include,
-					../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/include/assimp,
-					../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/include/assimp/Compiler,
-					../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/lib,
-					../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/lib/emscripten,
-					../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/lib/osx,
-					../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/license,
-					../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/src,
-					../../../of_v0.9.0_osx_release/addons/ofxFirstPersonCamera/src,
-					../../../of_v0.9.0_osx_release/addons/ofxGui/src,
-					../../../of_v0.9.0_osx_release/addons/ofxManipulator/src,
-				);
-				ICON = "$(ICON_NAME_DEBUG)";
-				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
-				INFOPLIST_FILE = "openFrameworks-Info.plist";
-				INSTALL_PATH = "$(HOME)/Applications";
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				OTHER_LDFLAGS = (
-					"$(OF_CORE_FRAMEWORKS)",
-					"$(OF_CORE_LIBS)",
-					../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/lib/osx/assimp.a,
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = cc.openFrameworks.ofapp;
-				PRODUCT_NAME = "$(TARGET_NAME)Debug";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		E4B69B610A3A1757003C02F2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				COPY_PHASE_STRIP = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
-				);
-				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../of_v0.9.0_osx_release/libs/glut/lib/osx\"";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_MODEL_TUNING = NONE;
-				HEADER_SEARCH_PATHS = (
-					"$(OF_CORE_HEADERS)",
-					src,
-					../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs,
-					../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp,
-					../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/include,
-					../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/include/assimp,
-					../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/include/assimp/Compiler,
-					../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/lib,
-					../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/lib/emscripten,
-					../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/lib/osx,
-					../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/license,
-					../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/src,
-					../../../of_v0.9.0_osx_release/addons/ofxFirstPersonCamera/src,
-					../../../of_v0.9.0_osx_release/addons/ofxGui/src,
-					../../../of_v0.9.0_osx_release/addons/ofxManipulator/src,
-				);
-				ICON = "$(ICON_NAME_RELEASE)";
-				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
-				INFOPLIST_FILE = "openFrameworks-Info.plist";
-				INSTALL_PATH = "$(HOME)/Applications";
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				OTHER_LDFLAGS = (
-					"$(OF_CORE_FRAMEWORKS)",
-					"$(OF_CORE_LIBS)",
-					../../../of_v0.9.0_osx_release/addons/ofxAssimpModelLoader/libs/assimp/lib/osx/assimp.a,
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = cc.openFrameworks.ofapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-				baseConfigurationReference = E4EB6923138AFD0F00A09F29;
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "two-addons" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E4B69B4E0A3A1720003C02F2 /* Debug */,
-				E4B69B4F0A3A1720003C02F2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "two-addons" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E4B69B600A3A1757003C02F2 /* Debug */,
-				E4B69B610A3A1757003C02F2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = E4B69B4C0A3A1720003C02F2 /* Project object */;
-}
+<?xml version="1.0"?>
+<plist version="1.0">
+	<dict>
+		<key>archiveVersion</key>
+		<string>1</string>
+		<key>classes</key>
+		<dict />
+		<key>objectVersion</key>
+		<string>46</string>
+		<key>objects</key>
+		<dict>
+			<key>3BA6BC591FAE1A03ADC2811E</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>triangle_impl.hpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/triangle/triangle_impl.hpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>810FF87764772AC1066A9532</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>triangle.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/triangle/triangle.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>1A17FD45FD6C902FB5123D08</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>dpoint.hpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/triangle/dpoint.hpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>172C5DAB84BC3F571C118D82</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>del_interface.hpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/triangle/del_interface.hpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>809CBD18A0C4D1ED47B5A91A</key>
+			<dict>
+				<key>fileRef</key>
+				<string>6B9BA01CDF59C5951D3F62DE</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>6B9BA01CDF59C5951D3F62DE</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>del_impl.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/triangle/del_impl.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>996B4D5C136F618539A2C28D</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>25C54BB526FEC195774A98FD</string>
+					<string>6B9BA01CDF59C5951D3F62DE</string>
+					<string>172C5DAB84BC3F571C118D82</string>
+					<string>1A17FD45FD6C902FB5123D08</string>
+					<string>810FF87764772AC1066A9532</string>
+					<string>3BA6BC591FAE1A03ADC2811E</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>triangle</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>25C54BB526FEC195774A98FD</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>assert.hpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/triangle/assert.hpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>318730E9F8B10C3F8F5DCAD6</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2Rope.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Rope/b2Rope.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>D9D8B44B877AA16A3E94A02D</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>2BAA18DFE322DCCD8B055A98</string>
+					<string>318730E9F8B10C3F8F5DCAD6</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>Rope</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>795651E929476920183E7050</key>
+			<dict>
+				<key>fileRef</key>
+				<string>2BAA18DFE322DCCD8B055A98</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>2BAA18DFE322DCCD8B055A98</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2Rope.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Rope/b2Rope.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>ABA6979459EF64C01EBB3068</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2WheelJoint.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Joints/b2WheelJoint.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>E4C570481EAC729DE105322D</key>
+			<dict>
+				<key>fileRef</key>
+				<string>01041C32CF358607F70BA30E</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>01041C32CF358607F70BA30E</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2WheelJoint.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Joints/b2WheelJoint.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>00C702E834BA9F199A8C41F8</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2WeldJoint.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Joints/b2WeldJoint.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>1A356068759D34D18CD6AD00</key>
+			<dict>
+				<key>fileRef</key>
+				<string>DF0DC00AA25A606A911DC891</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>DF0DC00AA25A606A911DC891</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2WeldJoint.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Joints/b2WeldJoint.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>EAADCADD07ACAAE850F6DF74</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2RopeJoint.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Joints/b2RopeJoint.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>603BC11EE389016A05966D79</key>
+			<dict>
+				<key>fileRef</key>
+				<string>CEF7031BEAB33F63A413D8A0</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>CEF7031BEAB33F63A413D8A0</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2RopeJoint.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Joints/b2RopeJoint.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>F9679704C40260C8CD424FD5</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2RevoluteJoint.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Joints/b2RevoluteJoint.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>87301E3FE585C6BEEF297970</key>
+			<dict>
+				<key>fileRef</key>
+				<string>D270F400F4B73811CA86B742</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>D270F400F4B73811CA86B742</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2RevoluteJoint.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Joints/b2RevoluteJoint.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>8B573967157CFF7383C8EF97</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2PulleyJoint.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Joints/b2PulleyJoint.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>CC756CA5137A30FA12F5166C</key>
+			<dict>
+				<key>fileRef</key>
+				<string>5CCBA7A2DC38A15A56707C42</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>5CCBA7A2DC38A15A56707C42</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2PulleyJoint.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Joints/b2PulleyJoint.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>02E07484F600B1861489BBC8</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2PrismaticJoint.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Joints/b2PrismaticJoint.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>1195C8E13CD6A0F78ABE18E9</key>
+			<dict>
+				<key>fileRef</key>
+				<string>F08E79A77C56D98C6EB04B3B</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>F08E79A77C56D98C6EB04B3B</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2PrismaticJoint.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Joints/b2PrismaticJoint.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>3AA56FCCAD5E5CB99C2003FF</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2MouseJoint.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Joints/b2MouseJoint.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>8ECD470CADD34A4048DDBB2A</key>
+			<dict>
+				<key>fileRef</key>
+				<string>8A30C8466D7E3CF94E3EEC80</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>8A30C8466D7E3CF94E3EEC80</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2MouseJoint.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Joints/b2MouseJoint.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>D43AEE637C0A2381C11AAD0A</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2MotorJoint.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Joints/b2MotorJoint.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>23F1C3E3A057DF8F0F731445</key>
+			<dict>
+				<key>fileRef</key>
+				<string>26035484ACB77D6FCA54E148</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>26035484ACB77D6FCA54E148</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2MotorJoint.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Joints/b2MotorJoint.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>B139B0C955DBBBE75373A291</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2Joint.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Joints/b2Joint.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>A2A6EDE27A9D87C9D1EAB6A1</key>
+			<dict>
+				<key>fileRef</key>
+				<string>E2BDD4B7D5B4C4AC977450EC</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>E2BDD4B7D5B4C4AC977450EC</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2Joint.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Joints/b2Joint.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>8370D02D9A28AB1881A671AD</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2GearJoint.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Joints/b2GearJoint.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>9D9FB19FAA3789C51B389032</key>
+			<dict>
+				<key>fileRef</key>
+				<string>8285251FAFBF07C4C7821AE5</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>8285251FAFBF07C4C7821AE5</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2GearJoint.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Joints/b2GearJoint.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>50CD27BB04FA3261DC1B0E0B</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2FrictionJoint.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Joints/b2FrictionJoint.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>5460DC3A95E8EB83068EEC74</key>
+			<dict>
+				<key>fileRef</key>
+				<string>D8404928359E7758E931DBDE</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>D8404928359E7758E931DBDE</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2FrictionJoint.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Joints/b2FrictionJoint.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>D8541A872900608A9BE48830</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2DistanceJoint.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Joints/b2DistanceJoint.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>81321C92DE6995F7DA246D17</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>8996AB292E7B9E9186543C7F</string>
+					<string>D8541A872900608A9BE48830</string>
+					<string>D8404928359E7758E931DBDE</string>
+					<string>50CD27BB04FA3261DC1B0E0B</string>
+					<string>8285251FAFBF07C4C7821AE5</string>
+					<string>8370D02D9A28AB1881A671AD</string>
+					<string>E2BDD4B7D5B4C4AC977450EC</string>
+					<string>B139B0C955DBBBE75373A291</string>
+					<string>26035484ACB77D6FCA54E148</string>
+					<string>D43AEE637C0A2381C11AAD0A</string>
+					<string>8A30C8466D7E3CF94E3EEC80</string>
+					<string>3AA56FCCAD5E5CB99C2003FF</string>
+					<string>F08E79A77C56D98C6EB04B3B</string>
+					<string>02E07484F600B1861489BBC8</string>
+					<string>5CCBA7A2DC38A15A56707C42</string>
+					<string>8B573967157CFF7383C8EF97</string>
+					<string>D270F400F4B73811CA86B742</string>
+					<string>F9679704C40260C8CD424FD5</string>
+					<string>CEF7031BEAB33F63A413D8A0</string>
+					<string>EAADCADD07ACAAE850F6DF74</string>
+					<string>DF0DC00AA25A606A911DC891</string>
+					<string>00C702E834BA9F199A8C41F8</string>
+					<string>01041C32CF358607F70BA30E</string>
+					<string>ABA6979459EF64C01EBB3068</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>Joints</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>E507684C86C56985B9CC7F75</key>
+			<dict>
+				<key>fileRef</key>
+				<string>8996AB292E7B9E9186543C7F</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>8996AB292E7B9E9186543C7F</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2DistanceJoint.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Joints/b2DistanceJoint.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>98C0FFFBC747FB8E3592EA9A</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2PolygonContact.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Contacts/b2PolygonContact.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>938EB98D3CA6F01A79B502CA</key>
+			<dict>
+				<key>fileRef</key>
+				<string>7D43DDA8FA45CB5E464C79F4</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>7D43DDA8FA45CB5E464C79F4</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2PolygonContact.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Contacts/b2PolygonContact.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>7B1C8643FD0E6B2EE9C008BE</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2PolygonAndCircleContact.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Contacts/b2PolygonAndCircleContact.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>EFE88FF644CC750C103986F1</key>
+			<dict>
+				<key>fileRef</key>
+				<string>3EA4575FC004EC6D4E0B9CE8</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>3EA4575FC004EC6D4E0B9CE8</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2PolygonAndCircleContact.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Contacts/b2PolygonAndCircleContact.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>5BA761216B42CC46906F775A</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2EdgeAndPolygonContact.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Contacts/b2EdgeAndPolygonContact.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>AC680A5AB8ED4D9E5FB5B244</key>
+			<dict>
+				<key>fileRef</key>
+				<string>3B440AF6C8E74D3B8FF31AF0</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>3B440AF6C8E74D3B8FF31AF0</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2EdgeAndPolygonContact.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Contacts/b2EdgeAndPolygonContact.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>F6BB413ED3A7453ED5F94DC2</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2EdgeAndCircleContact.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Contacts/b2EdgeAndCircleContact.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>C236ED7229853D3C3DDD2BBF</key>
+			<dict>
+				<key>fileRef</key>
+				<string>DE6973C2501A6B4EAA6FA0A9</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>DE6973C2501A6B4EAA6FA0A9</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2EdgeAndCircleContact.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Contacts/b2EdgeAndCircleContact.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>CF17531F02C776496374DA33</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2ContactSolver.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Contacts/b2ContactSolver.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>1377D44406FB3413D5EA203A</key>
+			<dict>
+				<key>fileRef</key>
+				<string>76EFA5ED519BB4DDA12470E4</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>76EFA5ED519BB4DDA12470E4</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2ContactSolver.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Contacts/b2ContactSolver.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>5AD98E1DDC3DD38D70DD1E37</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2Contact.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Contacts/b2Contact.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>6417A1FD19194557BCC75638</key>
+			<dict>
+				<key>fileRef</key>
+				<string>3915CB8703B919E843349825</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>3915CB8703B919E843349825</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2Contact.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Contacts/b2Contact.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>7AE14CD5F4D6DF4DA082ED5B</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2CircleContact.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Contacts/b2CircleContact.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>40DA9477010F59737FD4E7B6</key>
+			<dict>
+				<key>fileRef</key>
+				<string>E50BE5F710C78135B6AE3989</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>E50BE5F710C78135B6AE3989</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2CircleContact.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Contacts/b2CircleContact.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>11352C4884FDAFBA6C5A7366</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2ChainAndPolygonContact.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Contacts/b2ChainAndPolygonContact.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>F59363F0255AC1B8EC476F2B</key>
+			<dict>
+				<key>fileRef</key>
+				<string>10A0CBFD4CF580B860F30713</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>10A0CBFD4CF580B860F30713</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2ChainAndPolygonContact.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Contacts/b2ChainAndPolygonContact.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>1C21EED2DF4D119E0694213A</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2ChainAndCircleContact.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Contacts/b2ChainAndCircleContact.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>9618C0A0C8712E53CEDB090C</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>288790C250A042E007ECE946</string>
+					<string>1C21EED2DF4D119E0694213A</string>
+					<string>10A0CBFD4CF580B860F30713</string>
+					<string>11352C4884FDAFBA6C5A7366</string>
+					<string>E50BE5F710C78135B6AE3989</string>
+					<string>7AE14CD5F4D6DF4DA082ED5B</string>
+					<string>3915CB8703B919E843349825</string>
+					<string>5AD98E1DDC3DD38D70DD1E37</string>
+					<string>76EFA5ED519BB4DDA12470E4</string>
+					<string>CF17531F02C776496374DA33</string>
+					<string>DE6973C2501A6B4EAA6FA0A9</string>
+					<string>F6BB413ED3A7453ED5F94DC2</string>
+					<string>3B440AF6C8E74D3B8FF31AF0</string>
+					<string>5BA761216B42CC46906F775A</string>
+					<string>3EA4575FC004EC6D4E0B9CE8</string>
+					<string>7B1C8643FD0E6B2EE9C008BE</string>
+					<string>7D43DDA8FA45CB5E464C79F4</string>
+					<string>98C0FFFBC747FB8E3592EA9A</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>Contacts</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>44099EB252E0DDA15101B441</key>
+			<dict>
+				<key>fileRef</key>
+				<string>288790C250A042E007ECE946</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>288790C250A042E007ECE946</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2ChainAndCircleContact.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Contacts/b2ChainAndCircleContact.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>96D54D1B5A70B34BF35DA0E9</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2WorldCallbacks.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/b2WorldCallbacks.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>114EC2D0FCA862E0FEA69013</key>
+			<dict>
+				<key>fileRef</key>
+				<string>148C6639B9A0E139D333B288</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>148C6639B9A0E139D333B288</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2WorldCallbacks.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/b2WorldCallbacks.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>C66D274D14C24A868764E446</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2World.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/b2World.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>2E33E4FAEEF0127668108E43</key>
+			<dict>
+				<key>fileRef</key>
+				<string>1EF6BED3D609059DD29B0C01</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>1EF6BED3D609059DD29B0C01</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2World.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/b2World.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>51AD2767BF07299D96EE0986</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2TimeStep.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/b2TimeStep.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>489209494CF853B65DE8D441</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2Island.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/b2Island.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>65FA521EF1D3B19E97A353B5</key>
+			<dict>
+				<key>fileRef</key>
+				<string>DD5F4175CDE6A048AEB2C595</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>DD5F4175CDE6A048AEB2C595</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2Island.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/b2Island.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>FE08A865B68C1116DF1EA4CB</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2Fixture.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/b2Fixture.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>5A5CCDCC59F2547D4A906B35</key>
+			<dict>
+				<key>fileRef</key>
+				<string>B56F639ABC9B8E8ADFECB911</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>B56F639ABC9B8E8ADFECB911</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2Fixture.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/b2Fixture.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>429FDD0AF89F3C215D433127</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2ContactManager.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/b2ContactManager.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>D90B6C720920710EC9146E55</key>
+			<dict>
+				<key>fileRef</key>
+				<string>A1629EEF240938EB3ED549AB</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>A1629EEF240938EB3ED549AB</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2ContactManager.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/b2ContactManager.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>0E21655A87D12099CA8DF40A</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2Body.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/b2Body.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>B950FBF3AE43D9EE9BC61FF5</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>678EE2C85346498DB7645A22</string>
+					<string>0E21655A87D12099CA8DF40A</string>
+					<string>A1629EEF240938EB3ED549AB</string>
+					<string>429FDD0AF89F3C215D433127</string>
+					<string>B56F639ABC9B8E8ADFECB911</string>
+					<string>FE08A865B68C1116DF1EA4CB</string>
+					<string>DD5F4175CDE6A048AEB2C595</string>
+					<string>489209494CF853B65DE8D441</string>
+					<string>51AD2767BF07299D96EE0986</string>
+					<string>1EF6BED3D609059DD29B0C01</string>
+					<string>C66D274D14C24A868764E446</string>
+					<string>148C6639B9A0E139D333B288</string>
+					<string>96D54D1B5A70B34BF35DA0E9</string>
+					<string>9618C0A0C8712E53CEDB090C</string>
+					<string>81321C92DE6995F7DA246D17</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>Dynamics</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>5B5AA5BEE10A4931F360D7AC</key>
+			<dict>
+				<key>fileRef</key>
+				<string>678EE2C85346498DB7645A22</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>678EE2C85346498DB7645A22</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2Body.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/b2Body.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>0F760E480EF070C7DD3688EA</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2Timer.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Common/b2Timer.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>116C8E6F1290BFC1B07BCFBF</key>
+			<dict>
+				<key>fileRef</key>
+				<string>5216B768076F08E7AEA9111F</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>5216B768076F08E7AEA9111F</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2Timer.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Common/b2Timer.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>2DB01DE448D24F05B44B5002</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2StackAllocator.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Common/b2StackAllocator.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>68DE9036661AC00A5A8EB313</key>
+			<dict>
+				<key>fileRef</key>
+				<string>3609894380BC9F98744E154F</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>3609894380BC9F98744E154F</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2StackAllocator.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Common/b2StackAllocator.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>7912E93126DD4756A8E94886</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2Settings.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Common/b2Settings.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>45A4D6CC1DEDCFF6A2CAE96E</key>
+			<dict>
+				<key>fileRef</key>
+				<string>7550DF716AF332333D998EEC</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>7550DF716AF332333D998EEC</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2Settings.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Common/b2Settings.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>109A712D923EDFD04945313B</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2Math.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Common/b2Math.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>2D6BC481C99216D9F172638F</key>
+			<dict>
+				<key>fileRef</key>
+				<string>22E8A7F89C66412CAB89ED41</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>22E8A7F89C66412CAB89ED41</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2Math.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Common/b2Math.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>61A4ABE4835B9F1EC448720A</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2GrowableStack.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Common/b2GrowableStack.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>2162D3139ADE341F9EB510FD</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2Draw.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Common/b2Draw.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>79F4591AF716E685A732C1E0</key>
+			<dict>
+				<key>fileRef</key>
+				<string>E55DE1601039676FE329215E</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>E55DE1601039676FE329215E</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2Draw.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Common/b2Draw.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>235185B41804DD2819C2CAB3</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2BlockAllocator.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Common/b2BlockAllocator.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>E964BC1AC23EBD6ADA41DA1A</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>7B0EE6C9082264BFBD13C7F9</string>
+					<string>235185B41804DD2819C2CAB3</string>
+					<string>E55DE1601039676FE329215E</string>
+					<string>2162D3139ADE341F9EB510FD</string>
+					<string>61A4ABE4835B9F1EC448720A</string>
+					<string>22E8A7F89C66412CAB89ED41</string>
+					<string>109A712D923EDFD04945313B</string>
+					<string>7550DF716AF332333D998EEC</string>
+					<string>7912E93126DD4756A8E94886</string>
+					<string>3609894380BC9F98744E154F</string>
+					<string>2DB01DE448D24F05B44B5002</string>
+					<string>5216B768076F08E7AEA9111F</string>
+					<string>0F760E480EF070C7DD3688EA</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>Common</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>DDE733B94AF4E9049ADEB74A</key>
+			<dict>
+				<key>fileRef</key>
+				<string>7B0EE6C9082264BFBD13C7F9</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>7B0EE6C9082264BFBD13C7F9</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2BlockAllocator.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Common/b2BlockAllocator.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>6578978AB889C58566A77BF8</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2Shape.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Collision/Shapes/b2Shape.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>C8CE367553FA860BCB9A2CB1</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2PolygonShape.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Collision/Shapes/b2PolygonShape.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>4445611C17DBDE241738ABC9</key>
+			<dict>
+				<key>fileRef</key>
+				<string>5FD5E8F2D33644C7B184870E</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>5FD5E8F2D33644C7B184870E</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2PolygonShape.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Collision/Shapes/b2PolygonShape.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>0BEBB0492B7CADDDFB3D8BB1</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2EdgeShape.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Collision/Shapes/b2EdgeShape.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>280DDB22016AF0FF69BE9413</key>
+			<dict>
+				<key>fileRef</key>
+				<string>D87783CDA62E62AC8B73DA9D</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>D87783CDA62E62AC8B73DA9D</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2EdgeShape.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Collision/Shapes/b2EdgeShape.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>D1DA1A4473EE0C6A2544D7B6</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2CircleShape.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Collision/Shapes/b2CircleShape.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>EEFC753DF89938D70DD3E43A</key>
+			<dict>
+				<key>fileRef</key>
+				<string>835E465A3F5626666B6634D0</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>835E465A3F5626666B6634D0</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2CircleShape.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Collision/Shapes/b2CircleShape.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>77F228C2EF18E30EB3A26241</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2ChainShape.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Collision/Shapes/b2ChainShape.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>78C1ACE5912926BACB499BB4</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>4A58E3800A08BBEDDB1F80A6</string>
+					<string>77F228C2EF18E30EB3A26241</string>
+					<string>835E465A3F5626666B6634D0</string>
+					<string>D1DA1A4473EE0C6A2544D7B6</string>
+					<string>D87783CDA62E62AC8B73DA9D</string>
+					<string>0BEBB0492B7CADDDFB3D8BB1</string>
+					<string>5FD5E8F2D33644C7B184870E</string>
+					<string>C8CE367553FA860BCB9A2CB1</string>
+					<string>6578978AB889C58566A77BF8</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>Shapes</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>1CC59A13EB8BAA7F0D6E7798</key>
+			<dict>
+				<key>fileRef</key>
+				<string>4A58E3800A08BBEDDB1F80A6</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>4A58E3800A08BBEDDB1F80A6</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2ChainShape.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Collision/Shapes/b2ChainShape.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>FCE52323F9781D24B92CB931</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2TimeOfImpact.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Collision/b2TimeOfImpact.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>B1438B0412CE481A01AF0D9D</key>
+			<dict>
+				<key>fileRef</key>
+				<string>630C1E534EB77AE343947AFE</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>630C1E534EB77AE343947AFE</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2TimeOfImpact.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Collision/b2TimeOfImpact.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>CA06148E8537C111560B2937</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2DynamicTree.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Collision/b2DynamicTree.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>77FFE25E6288E825267C46C6</key>
+			<dict>
+				<key>fileRef</key>
+				<string>EF9AE0D0DC624907485A6B4E</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>EF9AE0D0DC624907485A6B4E</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2DynamicTree.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Collision/b2DynamicTree.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>F7BA8FE45175CBE1FAC424A2</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2Distance.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Collision/b2Distance.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>29101DD128E469EE760498B9</key>
+			<dict>
+				<key>fileRef</key>
+				<string>2F3EF3CCD3C70E6157844BBB</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>2F3EF3CCD3C70E6157844BBB</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2Distance.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Collision/b2Distance.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>AC868E636970B8EEF42CA6DD</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2Collision.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Collision/b2Collision.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>5A3BFEE6F57E4489110533B4</key>
+			<dict>
+				<key>fileRef</key>
+				<string>3390942D83CADF5D9980838E</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>3390942D83CADF5D9980838E</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2Collision.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Collision/b2Collision.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>281E26971C9D135E761A2A86</key>
+			<dict>
+				<key>fileRef</key>
+				<string>CB463017367FDAA4EBFD5C85</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>CB463017367FDAA4EBFD5C85</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2CollidePolygon.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Collision/b2CollidePolygon.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>E8DFE4A98863751C947D830A</key>
+			<dict>
+				<key>fileRef</key>
+				<string>C2AF43570FD71D6FA70AC109</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>C2AF43570FD71D6FA70AC109</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2CollideEdge.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Collision/b2CollideEdge.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>3347F8E109C95CB55CDADA6A</key>
+			<dict>
+				<key>fileRef</key>
+				<string>530AB542DF0464AF7B66E701</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>530AB542DF0464AF7B66E701</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2CollideCircle.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Collision/b2CollideCircle.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>175DF2955DD25124DC5FD844</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2BroadPhase.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Collision/b2BroadPhase.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>5F73569ECAB65FF89185C254</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>33046F9D6C128EB22712F830</string>
+					<string>175DF2955DD25124DC5FD844</string>
+					<string>530AB542DF0464AF7B66E701</string>
+					<string>C2AF43570FD71D6FA70AC109</string>
+					<string>CB463017367FDAA4EBFD5C85</string>
+					<string>3390942D83CADF5D9980838E</string>
+					<string>AC868E636970B8EEF42CA6DD</string>
+					<string>2F3EF3CCD3C70E6157844BBB</string>
+					<string>F7BA8FE45175CBE1FAC424A2</string>
+					<string>EF9AE0D0DC624907485A6B4E</string>
+					<string>CA06148E8537C111560B2937</string>
+					<string>630C1E534EB77AE343947AFE</string>
+					<string>FCE52323F9781D24B92CB931</string>
+					<string>78C1ACE5912926BACB499BB4</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>Collision</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>5FD17E9C46523435049F739D</key>
+			<dict>
+				<key>fileRef</key>
+				<string>33046F9D6C128EB22712F830</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>33046F9D6C128EB22712F830</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>b2BroadPhase.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Collision/b2BroadPhase.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>0BE7E79EC87A4756E55789FB</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>B35362869BE9246DA61052F6</string>
+					<string>5F73569ECAB65FF89185C254</string>
+					<string>E964BC1AC23EBD6ADA41DA1A</string>
+					<string>B950FBF3AE43D9EE9BC61FF5</string>
+					<string>D9D8B44B877AA16A3E94A02D</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>Box2D</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>C4343C0396E7683F2F1D5625</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>0BE7E79EC87A4756E55789FB</string>
+					<string>996B4D5C136F618539A2C28D</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>libs</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>B35362869BE9246DA61052F6</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>Box2D.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Box2D.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>0DCF49CEE03887C0BAB7EA34</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxBox2dUtils.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/src/ofxBox2dUtils.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>54A5CFFF27190A1CAA7D1390</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxBox2dRender.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/src/ofxBox2dRender.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>60C00261D0E62BDBA80B4461</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxBox2dRect.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/src/ofxBox2dRect.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>84671DADD2AA7A7A279B8D6F</key>
+			<dict>
+				<key>fileRef</key>
+				<string>2EDBB13586EB7CD4084AE460</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>2EDBB13586EB7CD4084AE460</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxBox2dRect.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/src/ofxBox2dRect.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>52F5580533C46EF34B7160EF</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxBox2dPolygonUtils.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/src/ofxBox2dPolygonUtils.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>D50A09CD6DE9DBCEFA67358E</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxBox2dPolygon.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/src/ofxBox2dPolygon.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>B80F7E26DB1A74EEF5AE3216</key>
+			<dict>
+				<key>fileRef</key>
+				<string>D72A48E501250CA6DD9D396F</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>D72A48E501250CA6DD9D396F</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxBox2dPolygon.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/src/ofxBox2dPolygon.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>D5686CF17913B4ADC8360716</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxBox2dJoint.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/src/ofxBox2dJoint.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>949BE18A45BCF0BF5D39B095</key>
+			<dict>
+				<key>fileRef</key>
+				<string>50880682D7C936BCC865D438</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>50880682D7C936BCC865D438</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxBox2dJoint.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/src/ofxBox2dJoint.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>60B9E22E50F39C38E09BD753</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxBox2dEdge.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/src/ofxBox2dEdge.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>B714A5034237C0F9142DBDDB</key>
+			<dict>
+				<key>fileRef</key>
+				<string>7854D77A6ECEDE6AFC7FF39D</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>7854D77A6ECEDE6AFC7FF39D</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxBox2dEdge.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/src/ofxBox2dEdge.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>84433A07B1D12065F0F79517</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxBox2dConvexPoly.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/src/ofxBox2dConvexPoly.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>CC0162D67CBB1B69035A69FB</key>
+			<dict>
+				<key>fileRef</key>
+				<string>38E196C8E182A9A0A2106847</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>38E196C8E182A9A0A2106847</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxBox2dConvexPoly.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/src/ofxBox2dConvexPoly.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>B9ED960833DC171399D18FE2</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxBox2dContactListener.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/src/ofxBox2dContactListener.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>1B90F721FA1CF5BE1EEBCB2D</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxBox2dCircle.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/src/ofxBox2dCircle.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>13307F066ED16EE729F1E005</key>
+			<dict>
+				<key>fileRef</key>
+				<string>9C1E7B0A15EDDCBA260AF769</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>9C1E7B0A15EDDCBA260AF769</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxBox2dCircle.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/src/ofxBox2dCircle.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>7337957AFFC7B1ACF4432790</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxBox2dBaseShape.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/src/ofxBox2dBaseShape.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>7306279D5C2DF19B576B5507</key>
+			<dict>
+				<key>fileRef</key>
+				<string>3D1247C6910C105F4760F708</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>3D1247C6910C105F4760F708</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxBox2dBaseShape.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/src/ofxBox2dBaseShape.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>AB9C85AF30A027424BC7A50B</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxBox2d.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/src/ofxBox2d.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>5492A1491D9E6E88EBB3BE2B</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>D04494822425204CEF610AD3</string>
+					<string>AB9C85AF30A027424BC7A50B</string>
+					<string>3D1247C6910C105F4760F708</string>
+					<string>7337957AFFC7B1ACF4432790</string>
+					<string>9C1E7B0A15EDDCBA260AF769</string>
+					<string>1B90F721FA1CF5BE1EEBCB2D</string>
+					<string>B9ED960833DC171399D18FE2</string>
+					<string>38E196C8E182A9A0A2106847</string>
+					<string>84433A07B1D12065F0F79517</string>
+					<string>7854D77A6ECEDE6AFC7FF39D</string>
+					<string>60B9E22E50F39C38E09BD753</string>
+					<string>50880682D7C936BCC865D438</string>
+					<string>D5686CF17913B4ADC8360716</string>
+					<string>D72A48E501250CA6DD9D396F</string>
+					<string>D50A09CD6DE9DBCEFA67358E</string>
+					<string>52F5580533C46EF34B7160EF</string>
+					<string>2EDBB13586EB7CD4084AE460</string>
+					<string>60C00261D0E62BDBA80B4461</string>
+					<string>54A5CFFF27190A1CAA7D1390</string>
+					<string>0DCF49CEE03887C0BAB7EA34</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>src</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>BD1B24C549BFA7D54BC59DE3</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>5492A1491D9E6E88EBB3BE2B</string>
+					<string>C4343C0396E7683F2F1D5625</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>ofxBox2d</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>30BAF96CE6A8B96FC143F8A5</key>
+			<dict>
+				<key>fileRef</key>
+				<string>D04494822425204CEF610AD3</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>D04494822425204CEF610AD3</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxBox2d.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/src/ofxBox2d.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>BB4B014C10F69532006C3DED</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>BD1B24C549BFA7D54BC59DE3</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>addons</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>6948EE371B920CB800B5AC1A</key>
+			<dict>
+				<key>children</key>
+				<array />
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>local_addons</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>E4328143138ABC890047C5CB</key>
+			<dict>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>lastKnownFileType</key>
+				<string>wrapper.pb-project</string>
+				<key>name</key>
+				<string>openFrameworksLib.xcodeproj</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>E4328144138ABC890047C5CB</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>E4328148138ABC890047C5CB</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>Products</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>E4328147138ABC890047C5CB</key>
+			<dict>
+				<key>containerPortal</key>
+				<string>E4328143138ABC890047C5CB</string>
+				<key>isa</key>
+				<string>PBXContainerItemProxy</string>
+				<key>proxyType</key>
+				<string>2</string>
+				<key>remoteGlobalIDString</key>
+				<string>E4B27C1510CBEB8E00536013</string>
+				<key>remoteInfo</key>
+				<string>openFrameworks</string>
+			</dict>
+			<key>E4328148138ABC890047C5CB</key>
+			<dict>
+				<key>fileType</key>
+				<string>archive.ar</string>
+				<key>isa</key>
+				<string>PBXReferenceProxy</string>
+				<key>path</key>
+				<string>openFrameworksDebug.a</string>
+				<key>remoteRef</key>
+				<string>E4328147138ABC890047C5CB</string>
+				<key>sourceTree</key>
+				<string>BUILT_PRODUCTS_DIR</string>
+			</dict>
+			<key>E4328149138ABC9F0047C5CB</key>
+			<dict>
+				<key>fileRef</key>
+				<string>E4328148138ABC890047C5CB</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>E4B69B4A0A3A1720003C02F2</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>E4B6FCAD0C3E899E008CF71C</string>
+					<string>E4EB6923138AFD0F00A09F29</string>
+					<string>E4B69E1C0A3A1BDC003C02F2</string>
+					<string>E4EEC9E9138DF44700A80321</string>
+					<string>BB4B014C10F69532006C3DED</string>
+					<string>6948EE371B920CB800B5AC1A</string>
+					<string>E4B69B5B0A3A1756003C02F2</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>E4B69B4C0A3A1720003C02F2</key>
+			<dict>
+				<key>attributes</key>
+				<dict>
+					<key>LastUpgradeCheck</key>
+					<string>0600</string>
+				</dict>
+				<key>buildConfigurationList</key>
+				<string>E4B69B4D0A3A1720003C02F2</string>
+				<key>compatibilityVersion</key>
+				<string>Xcode 3.2</string>
+				<key>developmentRegion</key>
+				<string>English</string>
+				<key>hasScannedForEncodings</key>
+				<string>0</string>
+				<key>isa</key>
+				<string>PBXProject</string>
+				<key>knownRegions</key>
+				<array>
+					<string>English</string>
+					<string>Japanese</string>
+					<string>French</string>
+					<string>German</string>
+				</array>
+				<key>mainGroup</key>
+				<string>E4B69B4A0A3A1720003C02F2</string>
+				<key>productRefGroup</key>
+				<string>E4B69B4A0A3A1720003C02F2</string>
+				<key>projectDirPath</key>
+				<string />
+				<key>projectReferences</key>
+				<array>
+					<dict>
+						<key>ProductGroup</key>
+						<string>E4328144138ABC890047C5CB</string>
+						<key>ProjectRef</key>
+						<string>E4328143138ABC890047C5CB</string>
+					</dict>
+				</array>
+				<key>projectRoot</key>
+				<string />
+				<key>targets</key>
+				<array>
+					<string>E4B69B5A0A3A1756003C02F2</string>
+				</array>
+			</dict>
+			<key>E4B69B4D0A3A1720003C02F2</key>
+			<dict>
+				<key>buildConfigurations</key>
+				<array>
+					<string>E4B69B4E0A3A1720003C02F2</string>
+					<string>E4B69B4F0A3A1720003C02F2</string>
+				</array>
+				<key>defaultConfigurationIsVisible</key>
+				<string>0</string>
+				<key>defaultConfigurationName</key>
+				<string>Release</string>
+				<key>isa</key>
+				<string>XCConfigurationList</string>
+			</dict>
+			<key>E4B69B4E0A3A1720003C02F2</key>
+			<dict>
+				<key>baseConfigurationReference</key>
+				<string>E4EB6923138AFD0F00A09F29</string>
+				<key>buildSettings</key>
+				<dict>
+					<key>HEADER_SEARCH_PATHS</key>
+					<array>
+						<string>$(OF_CORE_HEADERS)</string>
+						<string>src</string>
+						<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs</string>
+						<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D</string>
+						<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Collision</string>
+						<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Collision/Shapes</string>
+						<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Common</string>
+						<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics</string>
+						<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Contacts</string>
+						<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Joints</string>
+						<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Rope</string>
+						<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/triangle</string>
+						<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/src</string>
+					</array>
+					<key>CONFIGURATION_BUILD_DIR</key>
+					<string>$(SRCROOT)/bin/</string>
+					<key>COPY_PHASE_STRIP</key>
+					<string>NO</string>
+					<key>DEAD_CODE_STRIPPING</key>
+					<string>YES</string>
+					<key>GCC_AUTO_VECTORIZATION</key>
+					<string>YES</string>
+					<key>GCC_ENABLE_SSE3_EXTENSIONS</key>
+					<string>YES</string>
+					<key>GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS</key>
+					<string>YES</string>
+					<key>GCC_INLINES_ARE_PRIVATE_EXTERN</key>
+					<string>NO</string>
+					<key>GCC_OPTIMIZATION_LEVEL</key>
+					<string>0</string>
+					<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+					<string>NO</string>
+					<key>GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS</key>
+					<string>YES</string>
+					<key>GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO</key>
+					<string>NO</string>
+					<key>GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL</key>
+					<string>NO</string>
+					<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+					<string>NO</string>
+					<key>GCC_WARN_UNUSED_VALUE</key>
+					<string>NO</string>
+					<key>GCC_WARN_UNUSED_VARIABLE</key>
+					<string>NO</string>
+					<key>MACOSX_DEPLOYMENT_TARGET</key>
+					<string>10.8</string>
+					<key>ONLY_ACTIVE_ARCH</key>
+					<string>YES</string>
+					<key>OTHER_CPLUSPLUSFLAGS</key>
+					<array>
+						<string>-D__MACOSX_CORE__</string>
+						<string>-mtune=native</string>
+					</array>
+					<key>SDKROOT</key>
+					<string>macosx</string>
+				</dict>
+				<key>isa</key>
+				<string>XCBuildConfiguration</string>
+				<key>name</key>
+				<string>Debug</string>
+			</dict>
+			<key>E4B69B4F0A3A1720003C02F2</key>
+			<dict>
+				<key>baseConfigurationReference</key>
+				<string>E4EB6923138AFD0F00A09F29</string>
+				<key>buildSettings</key>
+				<dict>
+					<key>HEADER_SEARCH_PATHS</key>
+					<array>
+						<string>$(OF_CORE_HEADERS)</string>
+						<string>src</string>
+						<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs</string>
+						<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D</string>
+						<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Collision</string>
+						<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Collision/Shapes</string>
+						<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Common</string>
+						<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics</string>
+						<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Contacts</string>
+						<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Joints</string>
+						<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Rope</string>
+						<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/triangle</string>
+						<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/src</string>
+					</array>
+					<key>CONFIGURATION_BUILD_DIR</key>
+					<string>$(SRCROOT)/bin/</string>
+					<key>COPY_PHASE_STRIP</key>
+					<string>YES</string>
+					<key>DEAD_CODE_STRIPPING</key>
+					<string>YES</string>
+					<key>GCC_AUTO_VECTORIZATION</key>
+					<string>YES</string>
+					<key>GCC_ENABLE_SSE3_EXTENSIONS</key>
+					<string>YES</string>
+					<key>GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS</key>
+					<string>YES</string>
+					<key>GCC_INLINES_ARE_PRIVATE_EXTERN</key>
+					<string>NO</string>
+					<key>GCC_OPTIMIZATION_LEVEL</key>
+					<string>3</string>
+					<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+					<string>NO</string>
+					<key>GCC_UNROLL_LOOPS</key>
+					<string>YES</string>
+					<key>GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS</key>
+					<string>YES</string>
+					<key>GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO</key>
+					<string>NO</string>
+					<key>GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL</key>
+					<string>NO</string>
+					<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+					<string>NO</string>
+					<key>GCC_WARN_UNUSED_VALUE</key>
+					<string>NO</string>
+					<key>GCC_WARN_UNUSED_VARIABLE</key>
+					<string>NO</string>
+					<key>MACOSX_DEPLOYMENT_TARGET</key>
+					<string>10.8</string>
+					<key>OTHER_CPLUSPLUSFLAGS</key>
+					<array>
+						<string>-D__MACOSX_CORE__</string>
+						<string>-mtune=native</string>
+					</array>
+					<key>SDKROOT</key>
+					<string>macosx</string>
+				</dict>
+				<key>isa</key>
+				<string>XCBuildConfiguration</string>
+				<key>name</key>
+				<string>Release</string>
+			</dict>
+			<key>E4B69B580A3A1756003C02F2</key>
+			<dict>
+				<key>buildActionMask</key>
+				<string>2147483647</string>
+				<key>files</key>
+				<array>
+					<string>E4B69E200A3A1BDC003C02F2</string>
+					<string>E4B69E210A3A1BDC003C02F2</string>
+					<string>30BAF96CE6A8B96FC143F8A5</string>
+					<string>7306279D5C2DF19B576B5507</string>
+					<string>13307F066ED16EE729F1E005</string>
+					<string>CC0162D67CBB1B69035A69FB</string>
+					<string>B714A5034237C0F9142DBDDB</string>
+					<string>949BE18A45BCF0BF5D39B095</string>
+					<string>B80F7E26DB1A74EEF5AE3216</string>
+					<string>84671DADD2AA7A7A279B8D6F</string>
+					<string>5FD17E9C46523435049F739D</string>
+					<string>3347F8E109C95CB55CDADA6A</string>
+					<string>E8DFE4A98863751C947D830A</string>
+					<string>281E26971C9D135E761A2A86</string>
+					<string>5A3BFEE6F57E4489110533B4</string>
+					<string>29101DD128E469EE760498B9</string>
+					<string>77FFE25E6288E825267C46C6</string>
+					<string>B1438B0412CE481A01AF0D9D</string>
+					<string>1CC59A13EB8BAA7F0D6E7798</string>
+					<string>EEFC753DF89938D70DD3E43A</string>
+					<string>280DDB22016AF0FF69BE9413</string>
+					<string>4445611C17DBDE241738ABC9</string>
+					<string>DDE733B94AF4E9049ADEB74A</string>
+					<string>79F4591AF716E685A732C1E0</string>
+					<string>2D6BC481C99216D9F172638F</string>
+					<string>45A4D6CC1DEDCFF6A2CAE96E</string>
+					<string>68DE9036661AC00A5A8EB313</string>
+					<string>116C8E6F1290BFC1B07BCFBF</string>
+					<string>5B5AA5BEE10A4931F360D7AC</string>
+					<string>D90B6C720920710EC9146E55</string>
+					<string>5A5CCDCC59F2547D4A906B35</string>
+					<string>65FA521EF1D3B19E97A353B5</string>
+					<string>2E33E4FAEEF0127668108E43</string>
+					<string>114EC2D0FCA862E0FEA69013</string>
+					<string>44099EB252E0DDA15101B441</string>
+					<string>F59363F0255AC1B8EC476F2B</string>
+					<string>40DA9477010F59737FD4E7B6</string>
+					<string>6417A1FD19194557BCC75638</string>
+					<string>1377D44406FB3413D5EA203A</string>
+					<string>C236ED7229853D3C3DDD2BBF</string>
+					<string>AC680A5AB8ED4D9E5FB5B244</string>
+					<string>EFE88FF644CC750C103986F1</string>
+					<string>938EB98D3CA6F01A79B502CA</string>
+					<string>E507684C86C56985B9CC7F75</string>
+					<string>5460DC3A95E8EB83068EEC74</string>
+					<string>9D9FB19FAA3789C51B389032</string>
+					<string>A2A6EDE27A9D87C9D1EAB6A1</string>
+					<string>23F1C3E3A057DF8F0F731445</string>
+					<string>8ECD470CADD34A4048DDBB2A</string>
+					<string>1195C8E13CD6A0F78ABE18E9</string>
+					<string>CC756CA5137A30FA12F5166C</string>
+					<string>87301E3FE585C6BEEF297970</string>
+					<string>603BC11EE389016A05966D79</string>
+					<string>1A356068759D34D18CD6AD00</string>
+					<string>E4C570481EAC729DE105322D</string>
+					<string>795651E929476920183E7050</string>
+					<string>809CBD18A0C4D1ED47B5A91A</string>
+				</array>
+				<key>isa</key>
+				<string>PBXSourcesBuildPhase</string>
+				<key>runOnlyForDeploymentPostprocessing</key>
+				<string>0</string>
+			</dict>
+			<key>E4B69B590A3A1756003C02F2</key>
+			<dict>
+				<key>buildActionMask</key>
+				<string>2147483647</string>
+				<key>files</key>
+				<array>
+					<string>E4328149138ABC9F0047C5CB</string>
+				</array>
+				<key>isa</key>
+				<string>PBXFrameworksBuildPhase</string>
+				<key>runOnlyForDeploymentPostprocessing</key>
+				<string>0</string>
+			</dict>
+			<key>E4B69B5A0A3A1756003C02F2</key>
+			<dict>
+				<key>buildConfigurationList</key>
+				<string>E4B69B5F0A3A1757003C02F2</string>
+				<key>buildPhases</key>
+				<array>
+					<string>E4B69B580A3A1756003C02F2</string>
+					<string>E4B69B590A3A1756003C02F2</string>
+					<string>E4B6FFFD0C3F9AB9008CF71C</string>
+					<string>E4C2427710CC5ABF004149E2</string>
+				</array>
+				<key>buildRules</key>
+				<array />
+				<key>dependencies</key>
+				<array>
+					<string>E4EEB9AC138B136A00A80321</string>
+				</array>
+				<key>isa</key>
+				<string>PBXNativeTarget</string>
+				<key>name</key>
+				<string>two-addons</string>
+				<key>productName</key>
+				<string>myOFApp</string>
+				<key>productReference</key>
+				<string>E4B69B5B0A3A1756003C02F2</string>
+				<key>productType</key>
+				<string>com.apple.product-type.application</string>
+			</dict>
+			<key>E4B69B5B0A3A1756003C02F2</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>wrapper.application</string>
+				<key>includeInIndex</key>
+				<string>0</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>path</key>
+				<string>two-addonsDebug.app</string>
+				<key>sourceTree</key>
+				<string>BUILT_PRODUCTS_DIR</string>
+			</dict>
+			<key>E4B69B5F0A3A1757003C02F2</key>
+			<dict>
+				<key>buildConfigurations</key>
+				<array>
+					<string>E4B69B600A3A1757003C02F2</string>
+					<string>E4B69B610A3A1757003C02F2</string>
+				</array>
+				<key>defaultConfigurationIsVisible</key>
+				<string>0</string>
+				<key>defaultConfigurationName</key>
+				<string>Release</string>
+				<key>isa</key>
+				<string>XCConfigurationList</string>
+			</dict>
+			<key>E4B69B600A3A1757003C02F2</key>
+			<dict>
+				<key>baseConfigurationReference</key>
+				<string>E4EB6923138AFD0F00A09F29</string>
+				<key>buildSettings</key>
+				<dict>
+					<key>HEADER_SEARCH_PATHS</key>
+					<array>
+						<string>$(OF_CORE_HEADERS)</string>
+						<string>src</string>
+						<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs</string>
+						<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D</string>
+						<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Collision</string>
+						<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Collision/Shapes</string>
+						<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Common</string>
+						<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics</string>
+						<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Contacts</string>
+						<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Joints</string>
+						<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Rope</string>
+						<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/triangle</string>
+						<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/src</string>
+					</array>
+					<key>COMBINE_HIDPI_IMAGES</key>
+					<string>YES</string>
+					<key>COPY_PHASE_STRIP</key>
+					<string>NO</string>
+					<key>FRAMEWORK_SEARCH_PATHS</key>
+					<array>
+						<string>$(inherited)</string>
+						<string>$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)</string>
+					</array>
+					<key>FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1</key>
+					<string>"$(SRCROOT)/../../../of_v0.9.0_osx_release/libs/glut/lib/osx"</string>
+					<key>GCC_DYNAMIC_NO_PIC</key>
+					<string>NO</string>
+					<key>GCC_GENERATE_DEBUGGING_SYMBOLS</key>
+					<string>YES</string>
+					<key>GCC_MODEL_TUNING</key>
+					<string>NONE</string>
+					<key>ICON</key>
+					<string>$(ICON_NAME_DEBUG)</string>
+					<key>ICON_FILE</key>
+					<string>$(ICON_FILE_PATH)$(ICON)</string>
+					<key>INFOPLIST_FILE</key>
+					<string>openFrameworks-Info.plist</string>
+					<key>INSTALL_PATH</key>
+					<string>$(HOME)/Applications</string>
+					<key>LIBRARY_SEARCH_PATHS</key>
+					<string>$(inherited)</string>
+					<key>PRODUCT_NAME</key>
+					<string>$(TARGET_NAME)Debug</string>
+					<key>WRAPPER_EXTENSION</key>
+					<string>app</string>
+				</dict>
+				<key>isa</key>
+				<string>XCBuildConfiguration</string>
+				<key>name</key>
+				<string>Debug</string>
+			</dict>
+			<key>E4B69B610A3A1757003C02F2</key>
+			<dict>
+				<key>baseConfigurationReference</key>
+				<string>E4EB6923138AFD0F00A09F29</string>
+				<key>buildSettings</key>
+				<dict>
+					<key>HEADER_SEARCH_PATHS</key>
+					<array>
+						<string>$(OF_CORE_HEADERS)</string>
+						<string>src</string>
+						<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs</string>
+						<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D</string>
+						<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Collision</string>
+						<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Collision/Shapes</string>
+						<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Common</string>
+						<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics</string>
+						<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Contacts</string>
+						<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Dynamics/Joints</string>
+						<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Rope</string>
+						<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/triangle</string>
+						<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/src</string>
+					</array>
+					<key>COMBINE_HIDPI_IMAGES</key>
+					<string>YES</string>
+					<key>COPY_PHASE_STRIP</key>
+					<string>YES</string>
+					<key>FRAMEWORK_SEARCH_PATHS</key>
+					<array>
+						<string>$(inherited)</string>
+						<string>$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)</string>
+					</array>
+					<key>FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1</key>
+					<string>"$(SRCROOT)/../../../of_v0.9.0_osx_release/libs/glut/lib/osx"</string>
+					<key>GCC_GENERATE_DEBUGGING_SYMBOLS</key>
+					<string>YES</string>
+					<key>GCC_MODEL_TUNING</key>
+					<string>NONE</string>
+					<key>ICON</key>
+					<string>$(ICON_NAME_RELEASE)</string>
+					<key>ICON_FILE</key>
+					<string>$(ICON_FILE_PATH)$(ICON)</string>
+					<key>INFOPLIST_FILE</key>
+					<string>openFrameworks-Info.plist</string>
+					<key>INSTALL_PATH</key>
+					<string>$(HOME)/Applications</string>
+					<key>LIBRARY_SEARCH_PATHS</key>
+					<string>$(inherited)</string>
+					<key>PRODUCT_NAME</key>
+					<string>$(TARGET_NAME)</string>
+					<key>WRAPPER_EXTENSION</key>
+					<string>app</string>
+					<key>baseConfigurationReference</key>
+					<string>E4EB6923138AFD0F00A09F29</string>
+				</dict>
+				<key>isa</key>
+				<string>XCBuildConfiguration</string>
+				<key>name</key>
+				<string>Release</string>
+			</dict>
+			<key>E4B69E1C0A3A1BDC003C02F2</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>E4B69E1D0A3A1BDC003C02F2</string>
+					<string>E4B69E1E0A3A1BDC003C02F2</string>
+					<string>E4B69E1F0A3A1BDC003C02F2</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>path</key>
+				<string>src</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>E4B69E1D0A3A1BDC003C02F2</key>
+			<dict>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>lastKnownFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>name</key>
+				<string>main.cpp</string>
+				<key>path</key>
+				<string>src/main.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>E4B69E1E0A3A1BDC003C02F2</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofApp.cpp</string>
+				<key>path</key>
+				<string>src/ofApp.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>E4B69E1F0A3A1BDC003C02F2</key>
+			<dict>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>lastKnownFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>name</key>
+				<string>ofApp.h</string>
+				<key>path</key>
+				<string>src/ofApp.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>E4B69E200A3A1BDC003C02F2</key>
+			<dict>
+				<key>fileRef</key>
+				<string>E4B69E1D0A3A1BDC003C02F2</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>E4B69E210A3A1BDC003C02F2</key>
+			<dict>
+				<key>fileRef</key>
+				<string>E4B69E1E0A3A1BDC003C02F2</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>E4B6FCAD0C3E899E008CF71C</key>
+			<dict>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>lastKnownFileType</key>
+				<string>text.plist.xml</string>
+				<key>path</key>
+				<string>openFrameworks-Info.plist</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>E4B6FFFD0C3F9AB9008CF71C</key>
+			<dict>
+				<key>buildActionMask</key>
+				<string>2147483647</string>
+				<key>files</key>
+				<array />
+				<key>inputPaths</key>
+				<array />
+				<key>isa</key>
+				<string>PBXShellScriptBuildPhase</string>
+				<key>outputPaths</key>
+				<array />
+				<key>runOnlyForDeploymentPostprocessing</key>
+				<string>0</string>
+				<key>shellPath</key>
+				<string>/bin/sh</string>
+				<key>shellScript</key>
+				<string>rsync -aved ../../../of_v0.9.0_osx_release/libs/fmodex/lib/osx/libfmodex.dylib "$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/"; install_name_tool -change ./libfmodex.dylib @executable_path/libfmodex.dylib "$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/$PRODUCT_NAME";
+mkdir -p "$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/"
+rsync -aved "$ICON_FILE" "$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/"
+rsync -aved ../../../of_v0.9.0_osx_release/libs/glut/lib/osx/GLUT.framework "$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/"
+</string>
+			</dict>
+			<key>E4C2427710CC5ABF004149E2</key>
+			<dict>
+				<key>buildActionMask</key>
+				<string>2147483647</string>
+				<key>dstPath</key>
+				<string />
+				<key>dstSubfolderSpec</key>
+				<string>10</string>
+				<key>files</key>
+				<array />
+				<key>isa</key>
+				<string>PBXCopyFilesBuildPhase</string>
+				<key>runOnlyForDeploymentPostprocessing</key>
+				<string>0</string>
+			</dict>
+			<key>E4EB691F138AFCF100A09F29</key>
+			<dict>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>lastKnownFileType</key>
+				<string>text.xcconfig</string>
+				<key>name</key>
+				<string>CoreOF.xcconfig</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/libs/openFrameworksCompiled/project/osx/CoreOF.xcconfig</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>E4EB6923138AFD0F00A09F29</key>
+			<dict>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>lastKnownFileType</key>
+				<string>text.xcconfig</string>
+				<key>path</key>
+				<string>Project.xcconfig</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>E4EEB9AB138B136A00A80321</key>
+			<dict>
+				<key>containerPortal</key>
+				<string>E4328143138ABC890047C5CB</string>
+				<key>isa</key>
+				<string>PBXContainerItemProxy</string>
+				<key>proxyType</key>
+				<string>1</string>
+				<key>remoteGlobalIDString</key>
+				<string>E4B27C1410CBEB8E00536013</string>
+				<key>remoteInfo</key>
+				<string>openFrameworks</string>
+			</dict>
+			<key>E4EEB9AC138B136A00A80321</key>
+			<dict>
+				<key>isa</key>
+				<string>PBXTargetDependency</string>
+				<key>name</key>
+				<string>openFrameworks</string>
+				<key>targetProxy</key>
+				<string>E4EEB9AB138B136A00A80321</string>
+			</dict>
+			<key>E4EEC9E9138DF44700A80321</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>E4EB691F138AFCF100A09F29</string>
+					<string>E4328143138ABC890047C5CB</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>openFrameworks</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+		</dict>
+		<key>rootObject</key>
+		<string>E4B69B4C0A3A1720003C02F2</string>
+	</dict>
+</plist>
