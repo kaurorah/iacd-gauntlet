@@ -9,6 +9,420 @@
 		<string>46</string>
 		<key>objects</key>
 		<dict>
+			<key>4BED9346FF35267EC98A9227</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxDatGuiThemes.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxDatGui/src/themes/ofxDatGuiThemes.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>911FE1C75E520EE70A7B4830</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>62EA2AC58010BDE88F4A17A9</string>
+					<string>4BED9346FF35267EC98A9227</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>themes</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>62EA2AC58010BDE88F4A17A9</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxDatGuiTheme.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxDatGui/src/themes/ofxDatGuiTheme.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>0CA626A737C35AFFCFDDAC34</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxDatGui.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxDatGui/src/ofxDatGui.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>041C422B322F952787BD8F60</key>
+			<dict>
+				<key>fileRef</key>
+				<string>C0588C815261B0634FD3DCC9</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>C0588C815261B0634FD3DCC9</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxDatGui.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxDatGui/src/ofxDatGui.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>5830824BB2158D0127720E32</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxDatGuiIntObject.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxDatGui/src/core/ofxDatGuiIntObject.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>F45378E124D0E49DD8045689</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxDatGuiEvents.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxDatGui/src/core/ofxDatGuiEvents.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>414754D487190BE26FE61075</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxDatGuiConstants.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxDatGui/src/core/ofxDatGuiConstants.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>ECE0191039F3345066E86051</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxDatGuiComponent.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxDatGui/src/core/ofxDatGuiComponent.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>8870759BC9CAEA1E4E9EA3A8</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>4FFAE4689D60CDC212D7B1B6</string>
+					<string>ECE0191039F3345066E86051</string>
+					<string>414754D487190BE26FE61075</string>
+					<string>F45378E124D0E49DD8045689</string>
+					<string>5830824BB2158D0127720E32</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>core</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>6DFFF090B099E94E9B5A9A89</key>
+			<dict>
+				<key>fileRef</key>
+				<string>4FFAE4689D60CDC212D7B1B6</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>4FFAE4689D60CDC212D7B1B6</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxDatGuiComponent.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxDatGui/src/core/ofxDatGuiComponent.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>0277105524EA9CC0B3F297C7</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxDatGuiTimeGraph.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxDatGui/src/components/ofxDatGuiTimeGraph.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>7B479B30846EDEC93F96A7E1</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxDatGuiTextInputField.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxDatGui/src/components/ofxDatGuiTextInputField.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>2F1574400869E31DE7D53A92</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxDatGuiTextInput.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxDatGui/src/components/ofxDatGuiTextInput.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>CB0A70BF945F83F7D0BA3F19</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxDatGuiSlider.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxDatGui/src/components/ofxDatGuiSlider.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>B2FC74FEDAA124DC8D29A0E7</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxDatGuiMatrix.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxDatGui/src/components/ofxDatGuiMatrix.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>B4DE9A01557A166FDEB96E63</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxDatGuiLabel.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxDatGui/src/components/ofxDatGuiLabel.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>7E217B3AE527795A6E9315CD</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxDatGuiGroups.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxDatGui/src/components/ofxDatGuiGroups.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>A6B9504A2C341864A1DE1074</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxDatGuiFRM.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxDatGui/src/components/ofxDatGuiFRM.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>1B8DB2DAAFBD591FEA46EA39</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxDatGuiControls.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxDatGui/src/components/ofxDatGuiControls.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>2D4C41BC1569307D068D7C55</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxDatGuiColorPicker.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxDatGui/src/components/ofxDatGuiColorPicker.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>712DCB86DC34189734E5DE5C</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxDatGuiButton.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxDatGui/src/components/ofxDatGuiButton.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>947FCD1248D8B0A16B53C1AA</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>0F377504EEF4DFA2D6C5D746</string>
+					<string>712DCB86DC34189734E5DE5C</string>
+					<string>2D4C41BC1569307D068D7C55</string>
+					<string>1B8DB2DAAFBD591FEA46EA39</string>
+					<string>A6B9504A2C341864A1DE1074</string>
+					<string>7E217B3AE527795A6E9315CD</string>
+					<string>B4DE9A01557A166FDEB96E63</string>
+					<string>B2FC74FEDAA124DC8D29A0E7</string>
+					<string>CB0A70BF945F83F7D0BA3F19</string>
+					<string>2F1574400869E31DE7D53A92</string>
+					<string>7B479B30846EDEC93F96A7E1</string>
+					<string>0277105524EA9CC0B3F297C7</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>components</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>E9B32C117486580389FAFF01</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>947FCD1248D8B0A16B53C1AA</string>
+					<string>8870759BC9CAEA1E4E9EA3A8</string>
+					<string>C0588C815261B0634FD3DCC9</string>
+					<string>0CA626A737C35AFFCFDDAC34</string>
+					<string>911FE1C75E520EE70A7B4830</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>src</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>D8DD1043C333F6F63C8685E6</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>E9B32C117486580389FAFF01</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>ofxDatGui</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>0F377504EEF4DFA2D6C5D746</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxDatGui2dPad.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.0_osx_release/addons/ofxDatGui/src/components/ofxDatGui2dPad.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
 			<key>3BA6BC591FAE1A03ADC2811E</key>
 			<dict>
 				<key>explicitFileType</key>
@@ -2458,6 +2872,7 @@
 				<key>children</key>
 				<array>
 					<string>BD1B24C549BFA7D54BC59DE3</string>
+					<string>D8DD1043C333F6F63C8685E6</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
@@ -2634,6 +3049,10 @@
 						<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Rope</string>
 						<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/triangle</string>
 						<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/src</string>
+						<string>../../../of_v0.9.0_osx_release/addons/ofxDatGui/src</string>
+						<string>../../../of_v0.9.0_osx_release/addons/ofxDatGui/src/components</string>
+						<string>../../../of_v0.9.0_osx_release/addons/ofxDatGui/src/core</string>
+						<string>../../../of_v0.9.0_osx_release/addons/ofxDatGui/src/themes</string>
 					</array>
 					<key>CONFIGURATION_BUILD_DIR</key>
 					<string>$(SRCROOT)/bin/</string>
@@ -2703,6 +3122,10 @@
 						<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Rope</string>
 						<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/triangle</string>
 						<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/src</string>
+						<string>../../../of_v0.9.0_osx_release/addons/ofxDatGui/src</string>
+						<string>../../../of_v0.9.0_osx_release/addons/ofxDatGui/src/components</string>
+						<string>../../../of_v0.9.0_osx_release/addons/ofxDatGui/src/core</string>
+						<string>../../../of_v0.9.0_osx_release/addons/ofxDatGui/src/themes</string>
 					</array>
 					<key>CONFIGURATION_BUILD_DIR</key>
 					<string>$(SRCROOT)/bin/</string>
@@ -2814,6 +3237,8 @@
 					<string>E4C570481EAC729DE105322D</string>
 					<string>795651E929476920183E7050</string>
 					<string>809CBD18A0C4D1ED47B5A91A</string>
+					<string>6DFFF090B099E94E9B5A9A89</string>
+					<string>041C422B322F952787BD8F60</string>
 				</array>
 				<key>isa</key>
 				<string>PBXSourcesBuildPhase</string>
@@ -2909,6 +3334,10 @@
 						<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Rope</string>
 						<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/triangle</string>
 						<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/src</string>
+						<string>../../../of_v0.9.0_osx_release/addons/ofxDatGui/src</string>
+						<string>../../../of_v0.9.0_osx_release/addons/ofxDatGui/src/components</string>
+						<string>../../../of_v0.9.0_osx_release/addons/ofxDatGui/src/core</string>
+						<string>../../../of_v0.9.0_osx_release/addons/ofxDatGui/src/themes</string>
 					</array>
 					<key>COMBINE_HIDPI_IMAGES</key>
 					<string>YES</string>
@@ -2968,6 +3397,10 @@
 						<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/Box2D/Rope</string>
 						<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/libs/triangle</string>
 						<string>../../../of_v0.9.0_osx_release/addons/ofxBox2d/src</string>
+						<string>../../../of_v0.9.0_osx_release/addons/ofxDatGui/src</string>
+						<string>../../../of_v0.9.0_osx_release/addons/ofxDatGui/src/components</string>
+						<string>../../../of_v0.9.0_osx_release/addons/ofxDatGui/src/core</string>
+						<string>../../../of_v0.9.0_osx_release/addons/ofxDatGui/src/themes</string>
 					</array>
 					<key>COMBINE_HIDPI_IMAGES</key>
 					<string>YES</string>
