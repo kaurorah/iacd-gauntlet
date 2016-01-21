@@ -1,24 +1,26 @@
+
 #pragma once
 
 #include "ofMain.h"
 
-class ofApp : public ofBaseApp{
+#include "ofxAssimpModelLoader.h"
+#include "ofxFirstPersonCamera.h"
+#include "ofxManipulator.h"
 
-	public:
-		void setup();
-		void update();
-		void draw();
-
-		void keyPressed(int key);
-		void keyReleased(int key);
-		void mouseMoved(int x, int y );
-		void mouseDragged(int x, int y, int button);
-		void mousePressed(int x, int y, int button);
-		void mouseReleased(int x, int y, int button);
-		void mouseEntered(int x, int y);
-		void mouseExited(int x, int y);
-		void windowResized(int w, int h);
-		void dragEvent(ofDragInfo dragInfo);
-		void gotMessage(ofMessage msg);
-		
+class ofApp : public ofBaseApp
+{
+public:
+    void setup();
+    void draw();
+    void keyPressed(ofKeyEventArgs&);
+    void mousePressed(ofMouseEventArgs&);
+    
+    ofLight m_light;
+    ofImage m_matcapImage;
+    ofShader m_matcapShader;
+    ofMatrix4x4 m_modelMatrix;
+    ofxAssimpModelLoader m_model;
+    ofxFirstPersonCamera m_cam;
+    ofxManipulator m_gizmo;
+    
 };

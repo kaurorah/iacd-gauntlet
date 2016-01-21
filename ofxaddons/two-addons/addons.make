@@ -1,0 +1,4 @@
+ofxAssimpModelLoader
+ofxFirstPersonCamera
+ofxGui
+ofxManipulator
