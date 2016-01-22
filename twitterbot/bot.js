@@ -1,5 +1,28 @@
-var Twit = require('twit');
 
+// This function handles an incoming "request"
+// And sends back out a "response";
+var handleRequest = function (request, response) {
+  response.writeHead(200, {'Content-Type': 'text/plain'});
+  response.end('Hello World\n');
+};
+
+// HTTP module
+var http = require('http');
+
+// Create a server with the handleRequest callback
+var server = http.createServer(handleRequest);
+// Listen on port 8080
+server.listen(8080);
+
+console.log('Server started on port 8080');
+
+
+
+
+
+//-------------------------
+
+var Twit = require('twit');
 
 var T = new Twit({
   consumer_key:         '', 
@@ -8,6 +31,7 @@ var T = new Twit({
   access_token_secret:  ''
 });
 
+// var restclient = require('node-restclient');
 
 
 function postTweet (){
@@ -27,7 +51,6 @@ T.post('media/upload', { media_data: b64content }, function (err, data, response
       console.log("posted a tweet");
     })
   })
-
 }
 
 function generateImg(){
