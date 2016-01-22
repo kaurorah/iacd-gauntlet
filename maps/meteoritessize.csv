@@ -1,4 +1,4 @@
-Place,Type of meteorite,"Mass, g",Fell/found?,Year,Database,Coordinate 1,Coordinates 2
+Place,Type of meteorite,"Mass, g",Fell/found?,Year,Database,Longitude,Latitude
 Hoba,"Iron, IVB","60,000,000",Found,1920,http://www.lpi.usra.edu/meteor/metbull.php?code=11890,-19.58333,17.91667
 Cape York,"Iron, IIIAB","58,200,000",Found,1818,http://www.lpi.usra.edu/meteor/metbull.php?code=5262,76.13333,-64.93333
 Campo del Cielo,"Iron, IAB-MG","50,000,000",Found,1576,http://www.lpi.usra.edu/meteor/metbull.php?code=5247,-27.46667,-60.58333
