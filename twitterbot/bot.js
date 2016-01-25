@@ -1,37 +1,16 @@
 
-// This function handles an incoming "request"
-// And sends back out a "response";
-var handleRequest = function (request, response) {
-  response.writeHead(200, {'Content-Type': 'text/plain'});
-  response.end('Hello World\n');
-};
-
-// HTTP module
-var http = require('http');
-
-// Create a server with the handleRequest callback
-var server = http.createServer(handleRequest);
-// Listen on port 8080
-server.listen(8080);
-
-console.log('Server started on port 8080');
-
-
-
-
-
-//-------------------------
-
+//help getting up and running via https://github.com/dariusk/examplebot
 var Twit = require('twit');
 
 var T = new Twit({
-  consumer_key:         '', 
-  consumer_secret:      '',
-  access_token:         '',
-  access_token_secret:  ''
+  consumer_key:         'lsqS9G2sj8EZdWHvUsbUA8o2p', 
+  consumer_secret:      '2HdqZEU6lgydeRI7GMAhvVAlqz2V6BV9xIeG7IZ6eSHVTtuNDz',
+  access_token:         '4840503778-HqaAunlofMeJBg9xtj1CY6aPPqNLBEKiQagihWj',
+  access_token_secret:  'IkKO0FZmB0qaidab1XSmxAVlz3pq7YEUJTUKU6Ykq5mJk'
 });
 
-// var restclient = require('node-restclient');
+
+var botSearch = {q: "#bot", count: 10, result_type: "recent"}; 
 
 
 function postTweet (){
@@ -56,12 +35,12 @@ T.post('media/upload', { media_data: b64content }, function (err, data, response
 function generateImg(){
 //possibly load imgs in from file, processing, p5, API..TBD
 
-
-  postTweet();
 }
 
 
-//~10 min interval, post tweets
+postTweet();
+
+//~10 min interval, post tweets 560000
 setInterval(function() {
   try {
     generateImg(); 
