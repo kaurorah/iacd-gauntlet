@@ -26,7 +26,7 @@
 	//QUESTION: how do i make this load faster in the browser?
 	
 	//adapted from ingrid workshop materials
-		var stamenUrl = 'http://tile.stamen.com/watercolor/{z}/{x}/{y}.png'
+		var stamenUrl = 'http://tile.stamen.com/toner-background/{z}/{x}/{y}.png'
 
 		osmAttrib = 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY SA</a>.',
 
@@ -35,9 +35,9 @@
 		var map = new L.Map('map', {layers: [baselayer], center: new L.LatLng(40.7809,-73.9789), zoom: 5 });
 
 	var geojsonMarkerOptions = {
-   		radius: 5,
-    	fillColor: "#000",
-    	color: "#000",
+   		radius: 3,
+    	fillColor: "#dd5f13",
+    	color: "#dd5f13",
    	 	weight: 0,
    		opacity: 1,
    		fillOpacity: 0.8
@@ -45,9 +45,8 @@
 
 
 
-$.getJSON("parsed.geojson",function(data){
-  L.geoJson(data,{
-    	pointToLayer: function(feature,latlng){
+$.getJSON("geodata.geojson",function(data){
+  L.geoJson(data,{ pointToLayer: function(feature,latlng){
          return L.circleMarker(latlng, geojsonMarkerOptions);
      }
   }).addTo(map);

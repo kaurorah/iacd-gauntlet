@@ -1,6 +1,8 @@
 import processing.serial.*;
-
+//how to add a tooltip? some interactivity/information?
+//
 Table table;
+Star[] stars;
 
 void setup() {
   size(1000, 500);
@@ -8,24 +10,24 @@ void setup() {
   table = loadTable("meteorites.csv", "header");
 
   println(table.getRowCount() + " total rows in table"); 
-  stroke(255);
-  //could relate to weight/mass
-  strokeWeight(random(3));
-  //  frameRate(4);
 
-  //}
-  //void draw(){
+  stars = new Star [table.getRowCount()];
+  stroke(0);
+  fill(255,200);
+  int counter = 1; 
   for (TableRow row : table.rows ()) {
-
     //    int id = row.getInt("id");
     int mass = row.getInt("Mass");
-        if (mass == 0)
+    if (mass == 0)
       mass = 10000;
-    float size = map(mass, 0, 60000000, 0, 30);
-
-
+    float size = map(mass, 0, 60000000, 0, 100);
     int year = row.getInt("Year");
+
+    Star newStar = new Star(size, year);
+
     mapByYear(year, size);
+   // stars[counter] =newStar; 
+    counter++;
   }
 
 
@@ -38,6 +40,6 @@ void mapByYear(int year, float size) {
   //map to width  
   //map(value, start1, stop1, start2, stop2)
   float loc = map(year, 0, 2016, 0, width);
-  ellipse(loc, height/2*noiseFactor, size, size);
+  ellipse(loc, (height-50)*noiseFactor, size, size);
 }
 
